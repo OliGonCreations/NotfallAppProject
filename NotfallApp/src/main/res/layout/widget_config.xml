@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="74dp"
+    android:layout_marginTop="74dp"
+    android:layout_marginRight="32dp"
+    android:layout_marginLeft="32dp"
+    android:background="@drawable/background_card">
+
+    <LinearLayout
+        style="@style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/widget_cancel"
+            style="@style/ButtonBarButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selectable_item_background"
+            android:layout_weight="1"
+            android:text="@android:string/cancel"
+            android:onClick="onCancelConfig"/>
+
+        <Button
+            android:id="@+id/widget_confirm"
+            style="@style/ButtonBarButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selectable_item_background"
+            android:layout_weight="1"
+            android:text="@android:string/ok"
+            android:onClick="onFinishConfig"/>
+    </LinearLayout>
+
+</RelativeLayout>

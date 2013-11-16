@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="hint_your_email">Optional</string>
+    <string name="review">Review</string>
+
+    <string name="image_description">image</string>
+
+    <string name="ghs_input_hint">Gefahrenhinweis</string>
+    <string name="ghs_h">H-Sätze (Hazard Statements) beschreiben Gefährdungen, die von chemischen Stoffen oder Zubereitungen ausgehen.</string>
+    <string name="ghs_p">P-Sätze (Precautionry Statements) geben Sicherheitshinweise im Umgang mit chemischen Stoffen an.</string>
+    <string name="ghs_h_statements">H200-Reihe: Physikalische Gefahren\nH300-Reihe: Gesundheitsgefahren\nH400-Reihe: Umweltgefahren</string>
+    <string name="ghs_p_statements">P100-Reihe: Allgemeines\nP200-Reihe: Prävention\nP300-Reihe: Reaktion\nP400-Reihe: Aufbewahrung\nP500-Reihe: Entsorgung</string>
+    <string name="ghs_euh">Von der EU verwendeten, zusätzlichen H-Sätze, welche zum großen Teil als R-Sätze im ehemaligen EU-Kennzeichungssystem efiniert waren.</string>
+    <string name="ghs_s">S-Sätze sind Sicherheitsratschläge für gefährliche Stoffe und Gemische.</string>
+    <string name="ghs_r">R-Sätze sind die Bezeichnungen der besonderen Gefahren bei gefährlichen Stoffen und Gemischen. Sie sind ein wichtiger Bestandteil der Kennzeichnung.</string>
+
+    <string name="action_call_firefighters">Feuerwehr anrufen</string>
+    <string name="action_call_police">Polizei anrufen</string>
+
+    <string name="fire_discover">Wenn ein Brand entdeckt wird, ist mit dem Feuermelder Feueralarm auszulösen bzw. die Feuerwehr zu alarmieren und das Sekretariat zu informieren.</string>
+    <string name="fire_hero">Löschversuch nur tätigen, wenn sich dabei niemand selbst gefährdet. Retten geht vor Löschen!</string>
+    <string name="fire_windows">Fenster schließen und mit der Lehrkraft das Schulgebäude zügig, aber in Ruhe auf den gekennzeichneten Fluchtwegen verlassen.\n\nDie Lehrkraft nimmt das Tagebuch mit, versichert sich, dass kein Schüler mehr im Raum ist und verlässt den Raum zuletzt. Die Tür wird geschlossen, aber nicht abgeschlossen.</string>
+    <string name="fire_noescape">Sind die Fluchtwege nicht nutzbar, z.B wegen starker Rauchentwicklung, bleibt die Klasse bzw. Lerngruppe im Klassenraum. Die Tür ist zu schließen, die Gruppe macht sich über die Fenster bemerkbar.</string>
+    <string name="fire_missing">Bei Ankunft am Sammelplatz, kontrolliert die Lehrkraft ob alle Schüler das Gebäude verlassen haben.\n\nFehlende Schüler sind der Schul-bzw. Einsatzleitung zu melden. Dort wird auch von Lerngruppen ohne Lehrkraft, die ihre Vollzähligkeit am Sammelplatz überprüft haben, gemeldet, ob alle Schüler der Lerngruppe am Sammelplatz sind.</string>
+    <string name="fire_exit">Fluchtwege sind durch grüne Schilder im Gebäude markiert. Diesen ist im Notfall zu folgen.</string>
+    <string name="fire_light">Taschenlampe an</string>
+
+    <string name="amok_emergency">Beim Notruf sollten Anrufer, Tatort, Sachverhalt, Täter, Opfer und Erreichbarkeit genannt werden.\n\nNach dem Notruf wird auch das Sekretariat informiert.</string>
+    <string name="amok_behavior">Einschließen - verbarrikadieren\nFinger weg von Waffen!\n\nIn Ausnahmen Flucht ergreifen\nNach der Flucht zu den Rettungskräften</string>
+
+    <string name="aide_firstview">Zunächst die Lage überblicken und sich einen Eindruck der Lage verschaffen</string>
+    <string name="aide_safety">Sicherheit geht vor!\nDen Unfallort ausreichend absichern; Warndreieck, Fahrzeug quer auf die Straße;</string>
+    <string name="aide_lsm">Patienten auf Bewusstlosigkeit überprüfen; Stabile Seitenlage; Druckverband; Herz-Lungen-Wiederbelebung</string>
+</resources>

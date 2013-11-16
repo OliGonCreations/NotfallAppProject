@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_layout"
+    android:minHeight="110dp"
+    android:minWidth="250dp"
+    android:minResizeHeight="40dp"
+    android:minResizeWidth="180dp"
+    android:widgetCategory="keyguard|home_screen"
+    android:resizeMode="horizontal|vertical"
+    android:previewImage="@drawable/widget">
+    <!--android:configure="com.oligon.emergency.DialogWidgetConfigure"-->
+
+</appwidget-provider>

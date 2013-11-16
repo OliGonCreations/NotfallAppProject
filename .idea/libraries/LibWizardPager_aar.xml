@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LibWizardPager.aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/LibWizardPager.aar/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verhaltensregeln"
+                android:id="@+id/btBehavior"
+                android:minHeight="96dp"
+                android:drawableLeft="@drawable/ic_behavior"
+                android:paddingLeft="16dp"
+                android:background="@drawable/selectable_item_background"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="16dp"/>
+
+        <View
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/main_green"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wichtige Rufnummern"
+                android:id="@+id/btNumbers"
+                android:minHeight="96dp"
+                android:paddingLeft="16dp"
+                android:drawableLeft="@drawable/ic_numbers"
+                android:background="@drawable/selectable_item_background"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</RelativeLayout>

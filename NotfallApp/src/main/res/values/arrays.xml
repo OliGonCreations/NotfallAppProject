@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="numbers_title">
+        <item>Feuerwehr</item>
+        <item>Polizei</item>
+        <item>Bereitschaftsarzt</item>
+        <item>Giftnotrufzentrale Baden-Württemberg</item>
+        <item>EC-Karte sperren</item>
+        <item>Sperrdienst für die neuen Personalausweise</item>
+        <item>ADAC - Pannendienst</item>
+        <item>Zugfahrpläne (DB)</item>
+        <item>RGD - Sekretariat</item>
+    </string-array>
+    <string-array name="numbers_number">
+        <item>112</item>
+        <item>110</item>
+        <item>116 117</item>
+        <item>0176 19240</item>
+        <item>116 116</item>
+        <item>0180 133 33 33</item>
+        <item>01802 22 22 22</item>
+        <item>0800 150 70 90</item>
+        <item>07162 9226 25</item>
+    </string-array>
+    <array name="numbers_images">
+        <item>@drawable/ic_fire</item>
+        <item>@drawable/ic_police</item>
+        <item>@drawable/ic_doctor</item>
+        <item>@drawable/ic_poison</item>
+        <item>@drawable/ic_ec</item>
+        <item>@drawable/ic_perso</item>
+        <item>@drawable/ic_adac</item>
+        <item>@drawable/ic_db</item>
+        <item>@drawable/ic_behavior</item>
+    </array>
+
+    <array name="emergency_numbers">
+        <item>Notarzt</item>
+        <item>Polizei</item>
+        <item>Giftnotruf</item>
+    </array>
+</resources>

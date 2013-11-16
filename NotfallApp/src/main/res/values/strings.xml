@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotfallApp</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_about">Über</string>
+    <string name="next">Weiter</string>
+    <string name="prev">Zurück</string>
+    <string name="finish">Notruf!</string>
+    <string name="review">Notruf tätigen</string>
+
+    <string name="numbers">Rufnummern</string>
+    <string name="behavior">Verhalten</string>
+
+    <string name="submit_confirm_message">Notruf tätigen.</string>
+    <string name="submit_confirm_button">Bestätigen</string>
+
+    <string name="description_number_icon">Symbol der Rufnummer</string>
+
+    <string name="play_store">Play Store</string>
+    <string name="dialog_about_title">Über</string>
+    <string name="dialog_about_developer">Entwickelt von Jonas Menken</string>
+    <string name="dialog_about_text">Diese App wurde zur Unterstützung in Notsituationen, sowie auch als Präventionsmaßnahme für solche, in Kooperation mit dem Rechberggymnasium Donzdorf entwickelt. Es dient als hilfsreiches Nachglagewerk vor und während einem Notfall.</string>
+
+    <string name="category_main">Allgemein</string>
+    <string name="prefs_notification">Benachrichtigung</string>
+    <string name="prefs_notification_descr">Direkter Zugriff im Notfall in den Benachrichtigungen</string>
+
+    <string name="notification_title">Notfallhilfe</string>
+    <string name="notification_content">Schnellzugriff zu wichtigen Informationen</string>
+
+</resources>

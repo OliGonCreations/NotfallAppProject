@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oligon.emergency"
+    android:versionCode="7"
+    android:versionName="0.1.2">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--<uses-permission android:name="android.permission.FLASHLIGHT"/>-->
+    <!--<uses-permission android:name="android.permission.CAMERA"/>-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.oligon.emergency.ActivityMain"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.oligon.emergency.ActivityBehavior"
+            android:label="@string/behavior"
+            android:parentActivityName="com.oligon.emergency.ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oligon.emergency.ActivityMain" />
+        </activity>
+        <activity
+            android:name="com.oligon.emergency.ActivityNumbers"
+            android:label="@string/numbers"
+            android:parentActivityName="com.oligon.emergency.ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oligon.emergency.ActivityMain" />
+        </activity>
+        <activity
+            android:name="com.oligon.emergency.ActivitySettings"
+            android:label="@string/action_settings"
+            android:parentActivityName="com.oligon.emergency.ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oligon.emergency.ActivityMain" />
+        </activity>
+        <activity android:name="com.oligon.emergency.DialogWidgetConfigure"
+            android:theme="@style/AppTheme.Transparent">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:name="com.oligon.emergency.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.oligon.emergency.WidgetProvider.UPDATE_CONTENT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

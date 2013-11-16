@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:animateLayoutChanges="true">
+
+    <TextView
+            style="@style/WizardPageTitle"
+            android:layout_alignParentTop="true"/>
+
+
+    <Spinner
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ghs_statement"
+            android:layout_below="@android:id/title"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentLeft="true"/>
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ghs_numbers"
+            android:hint="@string/ghs_input_hint"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignTop="@+id/ghs_statement"
+            android:layout_toRightOf="@+id/ghs_statement"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ghs_statement">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+
+            <TextView
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:textColor="#707070"
+                    android:id="@+id/ghs_definition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/ghs_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#FA6C00"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:id="@+id/ghs_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#707070"
+                    android:layout_gravity="left|center_vertical"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout><!-- From: file:/home/jonas/Dokumente/Development/Android%20Workspace/NotfallAppProject/libraries/WizardPager/LibWizardPager/res/layout/fragment_page_ghs.xml --><!-- From: file:/home/jonas/Dokumente/Development/Android%20Workspace/NotfallAppProject/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/fragment_page_ghs.xml -->

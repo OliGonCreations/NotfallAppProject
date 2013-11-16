@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="8dp"
+                android:background="@drawable/list_item_background">
+
+    <ImageView
+            android:contentDescription="@string/image_description"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/list_image"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_title"
+            android:layout_marginLeft="4dp"
+            android:textSize="26sp"
+            android:textColor="#707070"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/list_image"/>
+</RelativeLayout><!-- From: file:/home/jonas/Dokumente/Development/Android%20Workspace/NotfallAppProject/libraries/WizardPager/LibWizardPager/res/layout/list_item_image.xml --><!-- From: file:/home/jonas/Dokumente/Development/Android%20Workspace/NotfallAppProject/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/list_item_image.xml -->

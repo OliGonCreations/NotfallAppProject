@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/jonas/Dokumente/Development/Android%20Workspace/NotfallAppProject/NotfallApp/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="image_width">36dp</dimen>
+    <dimen name="list_padding">4dp</dimen>
+
+</resources>

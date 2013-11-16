@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pictogram">
+        <item>Gefahrenpiktogramme</item>
+        <item>Gefahrenstoffklassen</item>
+        <item>Gefahrensymbole</item>
+    </string-array>
+
+    <string-array name="statements">
+        <item>H</item>
+        <item>P</item>
+        <item>EUH</item>
+        <item>S</item>
+        <item>R</item>
+    </string-array>
+
+    <string-array name="s_values">
+        <item>S 1</item>
+        <item>S 2</item>
+        <item>S 3</item>
+        <item>S 4</item>
+        <item>S 5</item>
+        <item>S 6</item>
+        <item>S 7</item>
+        <item>S 8</item>
+        <item>S 9</item>
+        <item>S 10</item>
+        <item>S 11</item>
+        <item>S 12</item>
+        <item>S 13</item>
+        <item>S 14</item>
+        <item>S 15</item>
+        <item>S 16</item>
+        <item>S 17</item>
+        <item>S 18</item>
+        <item>S 20</item>
+        <item>S 21</item>
+        <item>S 22</item>
+        <item>S 23</item>
+        <item>S 24</item>
+        <item>S 25</item>
+        <item>S 26</item>
+        <item>S 27</item>
+        <item>S 28</item>
+        <item>S 29</item>
+        <item>S 30</item>
+        <item>S 31</item>
+        <item>S 33</item>
+        <item>S 34</item>
+        <item>S 35</item>
+        <item>S 36</item>
+        <item>S 37</item>
+        <item>S 38</item>
+        <item>S 39</item>
+        <item>S 40</item>
+        <item>S 41</item>
+        <item>S 42</item>
+        <item>S 43</item>
+        <item>S 44</item>
+        <item>S 45</item>
+        <item>S 46</item>
+        <item>S 47</item>
+        <item>S 48</item>
+        <item>S 49</item>
+        <item>S 50</item>
+        <item>S 51</item>
+        <item>S 52</item>
+        <item>S 53</item>
+        <item>S 56</item>
+        <item>S 57</item>
+        <item>S 59</item>
+        <item>S 60</item>
+        <item>S 61</item>
+        <item>S 62</item>
+        <item>S 63</item>
+        <item>S 64</item>
+        <item>S 1/2</item>
+        <item>S 3/7</item>
+        <item>S 3/9/14</item>
+        <item>S 3/9/14/49</item>
+        <item>S 3/9/49</item>
+        <item>S 3/14</item>
+        <item>S 7/8</item>
+        <item>S 7/9</item>
+        <item>S 7/47</item>
+        <item>S 20/21</item>
+        <item>S 24/25</item>
+        <item>S 27/28</item>
+        <item>S 29/35</item>
+        <item>S 29/56</item>
+        <item>S 36/37</item>
+        <item>S 36/37/39</item>
+        <item>S 36/39</item>
+        <item>S 37/39</item>
+        <item>S 47/49</item>
+    </string-array>
+
+    <string-array name="s">
+        <item>Unter Verschluss aufbewahren.</item>
+        <item>Darf nicht in die Hände von Kindern gelangen.</item>
+        <item>Kühl aufbewahren.</item>
+        <item>Von Wohnplätzen fernhalten.</item>
+        <item>Unter … aufbewahren. (geeignete Flüssigkeit vom Hersteller anzugeben)</item>
+        <item>Unter … aufbewahren. (inertes Gas vom Hersteller anzugeben)</item>
+        <item>Behälter dicht geschlossen halten.</item>
+        <item>Behälter trocken halten.</item>
+        <item>Behälter an einem gut gelüfteten Ort aufbewahren.</item>
+        <item>Inhalt feucht halten.</item>
+        <item>Zutritt von Luft verhindern.</item>
+        <item>Behälter nicht gasdicht verschließen.</item>
+        <item>Von Nahrungsmitteln, Getränken und Futtermitteln fernhalten.</item>
+        <item>Von … fernhalten. (inkompatible Substanzen vom Hersteller anzugeben)</item>
+        <item>Vor Hitze schützen.</item>
+        <item>Von Zündquellen fernhalten – Nicht rauchen.</item>
+        <item>Von brennbaren Stoffen fernhalten.</item>
+        <item>Behälter mit Vorsicht öffnen und handhaben.</item>
+        <item>Bei der Arbeit nicht essen und trinken.</item>
+        <item>Bei der Arbeit nicht rauchen.</item>
+        <item>Staub nicht einatmen.</item>
+        <item>Gas/Rauch/Dampf/Aerosol nicht einatmen. (geeignete Bezeichnungen vom Hersteller
+            anzugeben)
+        </item>
+        <item>Berührung mit der Haut vermeiden.</item>
+        <item>Berührung mit den Augen vermeiden.</item>
+        <item>Bei Berührung mit den Augen gründlich mit Wasser abspülen und Arzt konsultieren.
+        </item>
+        <item>Beschmutzte, getränkte Kleidung sofort ausziehen.</item>
+        <item>Bei Berührung mit der Haut sofort abwaschen mit viel … (vom Hersteller anzugeben)
+        </item>
+        <item>Nicht in die Kanalisation gelangen lassen.</item>
+        <item>Niemals Wasser hinzugießen.</item>
+        <item>Von explosionsfähigen Stoffen fernhalten</item>
+        <item>Maßnahmen gegen elektrostatische Aufladung treffen.</item>
+        <item>Schlag und Reibung vermeiden. [Anmerkung 1][4]</item>
+        <item>Abfälle und Behälter müssen in gesicherter Weise beseitigt werden.</item>
+        <item>Bei der Arbeit geeignete Schutzkleidung tragen.</item>
+        <item>Geeignete Schutzhandschuhe tragen.</item>
+        <item>Bei unzureichender Belüftung Atemschutzgerät anlegen.</item>
+        <item>Schutzbrille/Gesichtsschutz tragen.</item>
+        <item>Fußboden und verunreinigte Gegenstände mit … reinigen. (Material vom Hersteller
+            anzugeben)
+        </item>
+        <item>Explosions- und Brandgase nicht einatmen.</item>
+        <item>Beim Räuchern/Versprühen geeignetes Atemschutzgerät anlegen. (Bezeichnung vom
+            Hersteller anzugeben)
+        </item>
+        <item>Zum Löschen … verwenden. (vom Hersteller anzugeben)(wenn Wasser die Gefahr erhöht,
+            anfügen: Kein Wasser verwenden)
+        </item>
+        <item>Bei Unwohlsein ärztlichen Rat einholen (wenn möglich, dieses Etikett vorzeigen).
+            [Anmerkung 1]
+        </item>
+        <item>Bei Unfall oder Unwohlsein sofort Arzt hinzuziehen (wenn möglich, dieses Etikett
+            vorzeigen).
+        </item>
+        <item>Bei Verschlucken sofort ärztlichen Rat einholen und Verpackung oder Etikett
+            vorzeigen.
+        </item>
+        <item>Nicht bei Temperaturen über … °C aufbewahren. (vom Hersteller anzugeben)</item>
+        <item>Feucht halten mit … (vom Hersteller anzugeben)</item>
+        <item>Nur im Originalbehälter aufbewahren.</item>
+        <item>Nicht mischen mit … (vom Hersteller anzugeben)</item>
+        <item>Nur in gut belüfteten Bereichen verwenden.</item>
+        <item>Nicht großflächig für Wohn- und Aufenthaltsräume zu verwenden.</item>
+        <item>Exposition vermeiden – vor Gebrauch besondere Anweisungen einholen. – Nur für den
+            berufsmäßigen Verwender –.
+        </item>
+        <item>Dieses Produkt und seinen Behälter der Problemabfallentsorgung zuführen.</item>
+        <item>Zur Vermeidung einer Kontamination der Umwelt geeigneten Behälter verwenden.</item>
+        <item>Information zur Wiederverwendung/Wiederverwertung beim Hersteller/Lieferanten
+            erfragen.
+        </item>
+        <item>Dieses Produkt und sein Behälter sind als gefährlicher Abfall zu entsorgen.</item>
+        <item>Freisetzung in die Umwelt vermeiden. Besondere Anweisungen
+            einholen/Sicherheitsdatenblatt zu Rate ziehen.
+        </item>
+        <item>Bei Verschlucken kein Erbrechen herbeiführen. Sofort ärztlichen Rat einholen und
+            Verpackung oder dieses Etikett vorzeigen.
+        </item>
+        <item>Bei Unfall durch Einatmen: Verunfallten an die frische Luft bringen und
+            ruhigstellen.
+        </item>
+        <item>Bei Verschlucken Mund mit Wasser ausspülen (Nur wenn Verunfallter bei Bewusstsein
+            ist).
+        </item>
+
+        <item>Unter Verschluss und für Kinder unzugänglich aufbewahren.</item>
+        <item>Behälter dicht geschlossen halten und an einem kühlen Ort aufbewahren.</item>
+        <item>
+            An einem kühlen, gut gelüfteten Ort, entfernt von … aufbewahren. (die Stoffe, mit denen
+            Kontakt vermieden werden muss, sind vom Hersteller anzugeben)
+        </item>
+        <item>
+            Nur im Originalbehälter an einem kühlen, gut gelüfteten Ort, entfernt von … aufbewahren.
+            (die Stoffe, mit denen Kontakt vermieden werden muss, sind vom Hersteller anzugeben)
+        </item>
+        <item>
+            Nur im Originalbehälter an einem kühlen, gut gelüfteten Ort aufbewahren.
+        </item>
+        <item>
+            An einem kühlen, von … entfernten Ort aufbewahren. (die Stoffe, mit denen Kontakt
+            vermieden werden muss, sind vom Hersteller anzugeben)
+        </item>
+        <item>
+            Behälter trocken und dicht geschlossen halten.
+        </item>
+        <item>
+            Behälter dicht geschlossen an einem gut gelüfteten Ort aufbewahren.
+        </item>
+        <item>
+            Behälter dicht geschlossen und nicht bei Temperaturen über … °C aufbewahren. (vom
+            Hersteller anzugeben)
+        </item>
+        <item>
+            Bei der Arbeit nicht essen, trinken oder rauchen.
+        </item>
+        <item>
+            Berührung mit den Augen und der Haut vermeiden.
+        </item>
+        <item>
+            Bei Berührung mit der Haut beschmutzte, getränkte Kleidung sofort ausziehen und Haut
+            sofort abwaschen mit viel … .(vom Hersteller anzugeben)
+        </item>
+        <item>
+            Nicht in die Kanalisation gelangen lassen; Abfälle und Behälter müssen in gesicherter
+            Weise beseitigt werden.
+        </item>
+        <item>
+            Nicht in die Kanalisation gelangen lassen; dieses Produkt und seinen Behälter der
+            Problemabfallentsorgung zuführen.
+        </item>
+        <item>
+            Bei der Arbeit geeignete Schutzhandschuhe und Schutzkleidung tragen.
+        </item>
+        <item>
+            Bei der Arbeit geeignete Schutzkleidung, Schutzhandschuhe und
+            Schutzbrille/Gesichtsschutz tragen.
+        </item>
+        <item>
+            Bei der Arbeit geeignete Schutzkleidung und Schutzbrille/Gesichtsschutz tragen.
+        </item>
+        <item>
+            Bei der Arbeit geeignete Schutzhandschuhe und Schutzbrille/Gesichtsschutz tragen.
+        </item>
+        <item>
+            Nur im Originalbehälter bei einer Temperatur von nicht über … °C aufbewahren. (vom
+            Hersteller anzugeben)
+        </item>
+    </string-array>
+
+    <string-array name="h_values">
+        <item>H200</item>
+        <item>H201</item>
+        <item>H202</item>
+        <item>H203</item>
+        <item>H204</item>
+        <item>H205</item>
+        <item>H220</item>
+        <item>H221</item>
+        <item>H222</item>
+        <item>H223</item>
+        <item>H224</item>
+        <item>H225</item>
+        <item>H226</item>
+        <item>H228</item>
+        <item>H240</item>
+        <item>H241</item>
+        <item>H242</item>
+        <item>H250</item>
+        <item>H251</item>
+        <item>H252</item>
+        <item>H260</item>
+        <item>H261</item>
+        <item>H270</item>
+        <item>H271</item>
+        <item>H272</item>
+        <item>H280</item>
+        <item>H281</item>
+        <item>H290</item>
+        <item>H300</item>
+        <item>H301</item>
+        <item>H302</item>
+        <item>H304</item>
+        <item>H310</item>
+        <item>H311</item>
+        <item>H312</item>
+        <item>H314</item>
+        <item>H315</item>
+        <item>H317</item>
+        <item>H318</item>
+        <item>H319</item>
+        <item>H330</item>
+        <item>H331</item>
+        <item>H332</item>
+        <item>H334</item>
+        <item>H335</item>
+        <item>H336</item>
+        <item>H340</item>
+        <item>H341</item>
+        <item>H350</item>
+        <item>H350i</item>
+        <item>H351</item>
+        <item>H360</item>
+        <item>H360F</item>
+        <item>H360D</item>
+        <item>H360FD</item>
+        <item>H360Fd</item>
+        <item>H360Df</item>
+        <item>H361</item>
+        <item>H361f</item>
+        <item>H361d</item>
+        <item>H361fd</item>
+        <item>H362</item>
+        <item>H370</item>
+        <item>H371</item>
+        <item>H372</item>
+        <item>H373</item>
+        <item>H300+H310</item>
+        <item>H300+H310+H330</item>
+        <item>H300+H330</item>
+        <item>H301+H311</item>
+        <item>H301+H311+H331</item>
+        <item>H301+H331</item>
+        <item>H302+H312</item>
+        <item>H302+H312+H332</item>
+        <item>H302+H332</item>
+        <item>H310+H330</item>
+        <item>H311+H331</item>
+        <item>H312+H332</item>
+        <item>H400</item>
+        <item>H410</item>
+        <item>H411</item>
+        <item>H412</item>
+        <item>H413</item>
+        <item>H420</item>
+    </string-array>
+
+    <string-array name="h">
+        <item>Instabil, explosiv.</item>
+        <item>Explosiv, Gefahr der Massenexplosion.</item>
+        <item>Explosiv; große Gefahr durch Splitter, Spreng- und Wurfstücke.</item>
+        <item>Explosiv; Gefahr durch Feuer, Luftdruck oder Splitter, Spreng- und Wurfstücke.</item>
+        <item>Gefahr durch Feuer oder Splitter, Spreng- und Wurfstücke.</item>
+        <item>Gefahr der Massenexplosion bei Feuer.</item>
+        <item>Extrem entzündbares Gas.</item>
+        <item>Entzündbares Gas.</item>
+        <item>Extrem entzündbares Aerosol.</item>
+        <item>Entzündbares Aerosol.</item>
+        <item>Flüssigkeit und Dampf extrem entzündbar.</item>
+        <item>Flüssigkeit und Dampf leicht entzündbar.</item>
+        <item>Flüssigkeit und Dampf entzündbar.</item>
+        <item>Entzündbarer Feststoff.</item>
+        <item>Erwärmung kann Explosion verursachen.</item>
+        <item>Erwärmung kann Brand oder Explosion verursachen.</item>
+        <item>Erwärmung kann Brand verursachen.</item>
+        <item>Entzündet sich in Berührung mit Luft von selbst.</item>
+        <item>Selbsterhitzungsfähig; kann in Brand geraten.</item>
+        <item>In großen Mengen selbsterhitzungsfähig; kann in Brand geraten.</item>
+        <item>In Berührung mit Wasser entstehen entzündbare Gase, die sich spontan entzünden können.</item>
+        <item>In Berührung mit Wasser entstehen entzündbare Gase.</item>
+        <item>Kann Brand verursachen oder verstärken; Oxidationsmittel.</item>
+        <item>Kann Brand oder Explosion verursachen; starkes Oxidationsmittel.</item>
+        <item>Kann Brand verstärken; Oxidationsmittel.</item>
+        <item>Enthält Gas unter Druck; kann bei Erwärmung explodieren.</item>
+        <item>Enthält tiefgekühltes Gas; kann Kälteverbrennungen oder –Verletzungen verursachen.</item>
+        <item>Kann gegenüber Metallen korrosiv sein.</item>
+        <item>Lebensgefahr bei Verschlucken.</item>
+        <item>Giftig bei Verschlucken.</item>
+        <item>Gesundheitsschädlich bei Verschlucken.</item>
+        <item>Kann bei Verschlucken und Eindringen in die Atemwege tödlich sein.</item>
+        <item>Lebensgefahr bei Hautkontakt.</item>
+        <item>Giftig bei Hautkontakt.</item>
+        <item>Gesundheitsschädlich bei Hautkontakt.</item>
+        <item>Verursacht schwere Verätzungen der Haut und schwere Augenschäden.</item>
+        <item>Verursacht Hautreizungen.</item>
+        <item>Kann allergische Hautreaktionen verursachen.</item>
+        <item>Verursacht schwere Augenschäden.</item>
+        <item>Verursacht schwere Augenreizung.</item>
+        <item>Lebensgefahr bei Einatmen.</item>
+        <item>Giftig bei Einatmen.</item>
+        <item>Gesundheitsschädlich bei Einatmen.</item>
+        <item>Kann bei Einatmen Allergie, asthmaartige Symptome oder Atembeschwerden verursachen.</item>
+        <item>Kann die Atemwege reizen.</item>
+        <item>Kann Schläfrigkeit und Benommenheit verursachen.</item>
+        <item>Kann genetische Defekte verursachen (Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Kann vermutlich genetische Defekte verursachen (Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Kann Krebs erzeugen (Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Kann bei Einatmen Krebs erzeugen.</item>
+        <item>Kann vermutlich Krebs erzeugen (Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Kann die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen (konkrete Wirkung angeben, sofern bekannt) (Expositionsweg angeben, sofern schlüssig belegt ist, dass die Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Kann die Fruchtbarkeit beeinträchtigen.</item>
+        <item>Kann das Kind im Mutterleib schädigen.</item>
+        <item>Kann die Fruchtbarkeit beeinträchtigen. Kann das Kind im Mutterleib schädigen.</item>
+        <item>Kann die Fruchtbarkeit beeinträchtigen. Kann vermutlich das Kind im Mutterleib schädigen.</item>
+        <item>Kann das Kind im Mutterleib schädigen. Kann vermutlich die Fruchtbarkeit beeinträchtigen.</item>
+        <item>Kann vermutlich die Fruchtbarkeit beeinträchtigen oder das Kind im Mutterleib schädigen (konkrete Wirkung angeben, sofern bekannt) (Expositionsweg angeben, sofern schlüssig belegt ist, dass die Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Kann vermutlich die Fruchtbarkeit beeinträchtigen.</item>
+        <item>Kann vermutlich das Kind im Mutterleib schädigen.</item>
+        <item>Kann vermutlich die Fruchtbarkeit beeinträchtigen. Kann vermutlich das Kind im Mutterleib schädigen.</item>
+        <item>Kann Säuglinge über die Muttermilch schädigen.</item>
+        <item>Schädigt die Organe (oder alle betroffenen Organe nennen, sofern bekannt) (Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Kann die Organe schädigen (oder alle betroffenen Organe nennen, sofern bekannt) (Expositionsweg angeben, sofern schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Schädigt die Organe (alle betroffenen Organe nennen) bei längerer oder wiederholter Exposition (Expositionsweg angeben, wenn schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Kann die Organe schädigen (alle betroffenen Organe nennen, sofern bekannt) bei längerer oder wiederholter Exposition (Expositionsweg angeben, wenn schlüssig belegt ist, dass diese Gefahr bei keinem anderen Expositionsweg besteht).</item>
+        <item>Lebensgefahr bei Verschlucken oder Hautkontakt.</item>
+        <item>Lebensgefahr bei Verschlucken, Hautkontakt oder Einatmen.</item>
+        <item>Lebensgefahr bei Verschlucken oder Einatmen.</item>
+        <item>Giftig bei Verschlucken oder Hautkontakt.</item>
+        <item>Giftig bei Verschlucken, Hautkontakt oder Einatmen.</item>
+        <item>Giftig bei Verschlucken oder Einatmen.</item>
+        <item>Gesundheitsschädlich bei Verschlucken oder Hautkontakt.</item>
+        <item>Gesundheitsschädlich bei Verschlucken, Hautkontakt oder Einatmen.</item>
+        <item>Gesundheitsschädlich bei Verschlucken oder Einatmen.</item>
+        <item>Lebensgefahr bei Hautkontakt oder Einatmen.</item>
+        <item>Giftig bei Hautkontakt oder Einatmen.</item>
+        <item>Gesundheitsschädlich bei Hautkontakt oder Einatmen.</item>
+        <item>Sehr giftig für Wasserorganismen.</item>
+        <item>Sehr giftig für Wasserorganismen mit langfristiger Wirkung.</item>
+        <item>Giftig für Wasserorganismen, mit langfristiger Wirkung.</item>
+        <item>Schädlich für Wasserorganismen, mit langfristiger Wirkung.</item>
+        <item>Kann für Wasserorganismen schädlich sein, mit langfristiger Wirkung.</item>
+        <item>Schädigt die öffentliche Gesundheit und die Umwelt durch Ozonabbau in der äußeren Atmosphäre.</item>
+    </string-array>
+
+    <string-array name="p_values">
+        <item>P101</item>
+        <item>P102</item>
+        <item>P103</item>
+        <item>P201</item>
+        <item>P202</item>
+        <item>P210</item>
+        <item>P211</item>
+        <item>P220</item>
+        <item>P221</item>
+        <item>P222</item>
+        <item>P223</item>
+        <item>P230</item>
+        <item>P231</item>
+        <item>P232</item>
+        <item>P233</item>
+        <item>P234</item>
+        <item>P235</item>
+        <item>P240</item>
+        <item>P241</item>
+        <item>P242</item>
+        <item>P243</item>
+        <item>P244</item>
+        <item>P250</item>
+        <item>P251</item>
+        <item>P260</item>
+        <item>P261</item>
+        <item>P262</item>
+        <item>P263</item>
+        <item>P264</item>
+        <item>P270</item>
+        <item>P271</item>
+        <item>P272</item>
+        <item>P273</item>
+        <item>P280</item>
+        <item>P281</item>
+        <item>P282</item>
+        <item>P283</item>
+        <item>P284</item>
+        <item>P285</item>
+        <item>P231+P232</item>
+        <item>P235+P410</item>
+        <item>P301</item>
+        <item>P302</item>
+        <item>P303</item>
+        <item>P304</item>
+        <item>P305</item>
+        <item>P306</item>
+        <item>P307</item>
+        <item>P308</item>
+        <item>P309</item>
+        <item>P310</item>
+        <item>P311</item>
+        <item>P312</item>
+        <item>P313</item>
+        <item>P314</item>
+        <item>P315</item>
+        <item>P320</item>
+        <item>P321</item>
+        <item>P322</item>
+        <item>P330</item>
+        <item>P331</item>
+        <item>P332</item>
+        <item>P333</item>
+        <item>P334</item>
+        <item>P335</item>
+        <item>P336</item>
+        <item>P337</item>
+        <item>P338</item>
+        <item>P340</item>
+        <item>P341</item>
+        <item>P342</item>
+        <item>P350</item>
+        <item>P351</item>
+        <item>P352</item>
+        <item>P353</item>
+        <item>P360</item>
+        <item>P361</item>
+        <item>P362</item>
+        <item>P363</item>
+        <item>P370</item>
+        <item>P371</item>
+        <item>P372</item>
+        <item>P373</item>
+        <item>P374</item>
+        <item>P375</item>
+        <item>P376</item>
+        <item>P377</item>
+        <item>P378</item>
+        <item>P380</item>
+        <item>P381</item>
+        <item>P390</item>
+        <item>P391</item>
+        <item>P301 + P310</item>
+        <item>P301 + P312</item>
+        <item>P301 + P330 + P331</item>
+        <item>P302 + P334</item>
+        <item>P302 + P350</item>
+        <item>P302 + P352</item>
+        <item>P303 + P361 + P353</item>
+        <item>P304 + P340</item>
+        <item>P304 + P341</item>
+        <item>P305 + P351 + P338</item>
+        <item>P306 + P360</item>
+        <item>P307 + P310</item>
+        <item>P307 + P311</item>
+        <item>P308 + P313</item>
+        <item>P309 + P310</item>
+        <item>P309 + P311</item>
+        <item>P332 + P313</item>
+        <item>P333 + P313</item>
+        <item>P335 + P334</item>
+        <item>P337 + P313</item>
+        <item>P342 + P311</item>
+        <item>P370 + P376</item>
+        <item>P370 + P378</item>
+        <item>P370 + P380</item>
+        <item>P370 + P380 + P375</item>
+        <item>P371 + P380 + P375</item>
+        <item>P401</item>
+        <item>P402</item>
+        <item>P403</item>
+        <item>P404</item>
+        <item>P405</item>
+        <item>P406</item>
+        <item>P407</item>
+        <item>P410</item>
+        <item>P411</item>
+        <item>P412</item>
+        <item>P413</item>
+        <item>P420</item>
+        <item>P422</item>
+        <item>P402 + P404</item>
+        <item>P403 + P233</item>
+        <item>P403 + P235</item>
+        <item>P410 + P403</item>
+        <item>P410 + P412</item>
+        <item>P411 + P235</item>
+        <item>P501</item>
+        <item>P502</item>
+    </string-array>
+
+    <string-array name="p">
+        <item>Ist ärztlicher Rat erforderlich, Verpackung oder Kennzeichnungsetikett bereithalten.</item>
+        <item>Darf nicht in die Hände von Kindern gelangen.</item>
+        <item>Vor Gebrauch Kennzeichnungsetikett lesen.</item>
+        <item>Vor Gebrauch besondere Anweisungen einholen.</item>
+        <item>Vor Gebrauch alle Sicherheitshinweise lesen und verstehen.</item>
+        <item>Von Hitze / Funken / offener Flamme / heißen Oberflächen fernhalten. Nicht rauchen.</item>
+        <item>Nicht gegen offene Flamme oder andere Zündquelle sprühen.</item>
+        <item>Von Kleidung /…/ brennbaren Materialien fernhalten/entfernt aufbewahren.</item>
+        <item>Mischen mit brennbaren Stoffen /… unbedingt verhindern.</item>
+        <item>Kontakt mit Luft nicht zulassen.</item>
+        <item>Kontakt mit Wasser wegen heftiger Reaktion und möglichem Aufflammen unbedingt verhindern.</item>
+        <item>Feucht halten mit ….</item>
+        <item>Unter inertem Gas handhaben.</item>
+        <item>Vor Feuchtigkeit schützen.</item>
+        <item>Behälter dicht verschlossen halten.</item>
+        <item>Nur im Originalbehälter aufbewahren.</item>
+        <item>Kühl halten.</item>
+        <item>Behälter und zu befüllende Anlage erden.</item>
+        <item>Explosionsgeschützte elektrische Betriebsmittel / Lüftungsanlagen / Beleuchtung /… verwenden.</item>
+        <item>Nur funkenfreies Werkzeug verwenden.</item>
+        <item>Maßnahmen gegen elektrostatische Aufladungen treffen.</item>
+        <item>Druckminderer frei von Fett und Öl halten.</item>
+        <item>Nicht schleifen / stoßen /…/ reiben.</item>
+        <item>Behälter steht unter Druck: Nicht durchstechen oder verbrennen, auch nicht nach der Verwendung.</item>
+        <item>Staub / Rauch / Gas / Nebel / Dampf / Aerosol nicht einatmen.</item>
+        <item>Einatmen von Staub / Rauch / Gas / Nebel / Dampf / Aerosol vermeiden.</item>
+        <item>Nicht in die Augen, auf die Haut oder auf die Kleidung gelangen lassen.</item>
+        <item>Kontakt während der Schwangerschaft / und der Stillzeit vermeiden.</item>
+        <item>Nach Gebrauch … gründlich waschen.</item>
+        <item>Bei Gebrauch nicht essen, trinken oder rauchen.</item>
+        <item>Nur im Freien oder in gut belüfteten Räumen verwenden.</item>
+        <item>Kontaminierte Arbeitskleidung nicht außerhalb des Arbeitsplatzes tragen.</item>
+        <item>Freisetzung in die Umwelt vermeiden.</item>
+        <item>Schutzhandschuhe / Schutzkleidung / Augenschutz / Gesichtsschutz tragen.</item>
+        <item>Vorgeschriebene persönliche Schutzausrüstung verwenden.</item>
+        <item>Schutzhandschuhe / Gesichtsschild / Augenschutz mit Kälteisolierung tragen.</item>
+        <item>Schwer entflammbare / flammhemmende Kleidung tragen.</item>
+        <item>Atemschutz tragen.</item>
+        <item>Bei unzureichender Belüftung Atemschutz tragen.</item>
+        <item>Unter inertem Gas handhaben. Vor Feuchtigkeit schützen.</item>
+        <item>Kühl halten. Vor Sonnenbestrahlung schützen.</item>
+        <item>Bei Verschlucken: ...</item>
+        <item>Bei Berührung mit der Haut: ...</item>
+        <item>Bei Berührung mit der Haut (oder dem Haar): ...</item>
+        <item>Bei Einatmen: ...</item>
+        <item>Bei Kontakt mit den Augen: ...</item>
+        <item>Bei kontaminierter Kleidung: ...</item>
+        <item>Bei Exposition: ...</item>
+        <item>Bei Exposition oder falls betroffen: ...</item>
+        <item>Bei Exposition oder Unwohlsein: ...</item>
+        <item>Sofort Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Bei Unwohlsein Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Ärztlichen Rat einholen / ärztliche Hilfe hinzuziehen.</item>
+        <item>Bei Unwohlsein ärztlichen Rat einholen / ärztliche Hilfe hinzuziehen.</item>
+        <item>Sofort ärztlichen Rat einholen / ärztliche Hilfe hinzuziehen.</item>
+        <item>Besondere Behandlung dringend erforderlich (siehe … auf diesem Kennzeichnungsetikett).</item>
+        <item>Besondere Behandlung (siehe … auf diesem Kennzeichnungsetikett).</item>
+        <item>Gezielte Maßnahmen (siehe … auf diesem Kennzeichnungsetikett).</item>
+        <item>Mund ausspülen.</item>
+        <item>Kein Erbrechen herbeiführen.</item>
+        <item>Bei Hautreizung: ...</item>
+        <item>Bei Hautreizung oder -ausschlag: ...</item>
+        <item>In kaltes Wasser tauchen / nassen Verband anlegen.</item>
+        <item>Lose Partikel von der Haut abbürsten.</item>
+        <item>Vereiste Bereiche mit lauwarmem Wasser auftauen. Betroffenen Bereich nicht reiben.</item>
+        <item>Bei anhaltender Augenreizung: ...</item>
+        <item>Eventuell vorhandene Kontaktlinsen nach Möglichkeit entfernen. Weiter ausspülen.</item>
+        <item>Die betroffene Person an die frische Luft bringen und in einer Position ruhigstellen, die das Atmen erleichtert.</item>
+        <item>Bei Atembeschwerden an die frische Luft bringen und in einer Position ruhigstellen, die das Atmen erleichtert.</item>
+        <item>Bei Symptomen der Atemwege: ...</item>
+        <item>Behutsam mit viel Wasser und Seife waschen.</item>
+        <item>Einige Minuten lang behutsam mit Wasser ausspülen.</item>
+        <item>Mit viel Wasser und Seife waschen.</item>
+        <item>Haut mit Wasser abwaschen / duschen.</item>
+        <item>Kontaminierte Kleidung und Haut sofort mit viel Wasser abwaschen und danach Kleidung ausziehen.</item>
+        <item>Alle kontaminierten Kleidungsstücke sofort ausziehen.</item>
+        <item>Kontaminierte Kleidung ausziehen und vor erneutem Tragen waschen.</item>
+        <item>Kontaminierte Kleidung vor erneutem Tragen waschen.</item>
+        <item>Bei Brand: ...</item>
+        <item>Bei Großbrand und großen Mengen: ...</item>
+        <item>Explosionsgefahr bei Brand.</item>
+        <item>Keine Brandbekämpfung, wenn das Feuer explosive Stoffe / Gemische / Erzeugnisse erreicht.</item>
+        <item>Brandbekämpfung mit üblichen Vorsichtsmaßnahmen aus angemessener Entfernung.</item>
+        <item>Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen.</item>
+        <item>Undichtigkeit beseitigen, wenn gefahrlos möglich.</item>
+        <item>Brand von ausströmendem Gas: Nicht löschen, bis Undichtigkeit gefahrlos beseitigt werden kann.</item>
+        <item>... zum Löschen verwenden.</item>
+        <item>Umgebung räumen.</item>
+        <item>Alle Zündquellen entfernen, wenn gefahrlos möglich.</item>
+        <item>Verschüttete Mengen aufnehmen, um Materialschäden zu vermeiden.</item>
+        <item>Verschüttete Mengen aufnehmen.</item>
+        <item>Bei Verschlucken: Sofort Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Bei Verschlucken: Bei Unwohlsein Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Bei Verschlucken: Mund ausspülen. Kein Erbrechen herbeiführen.</item>
+        <item>Bei Kontakt mit der Haut: In kaltes Wasser tauchen / nassen Verband anlegen.</item>
+        <item>Bei Kontakt mit der Haut: Behutsam mit viel Wasser und Seife waschen.</item>
+        <item>Bei Kontakt mit der Haut: Mit viel Wasser und Seife waschen.</item>
+        <item>Bei Kontakt mit der Haut (oder dem Haar): Alle beschmutzten, getränkten Kleidungsstücke sofort ausziehen. Haut mit Wasser abwaschen/duschen.</item>
+        <item>Bei Einatmen: An die frische Luft bringen und in einer Position ruhigstellen, die das Atmen erleichtert.</item>
+        <item>Bei Einatmen: Bei Atembeschwerden an die frische Luft bringen und in einer Position ruhigstellen, die das Atmen erleichtert.</item>
+        <item>Bei Kontakt mit den Augen: Einige Minuten lang behutsam mit Wasser spülen. Vorhandene Kontaktlinsen nach Möglichkeit entfernen. Weiter spülen.</item>
+        <item>Bei Kontakt mit der Kleidung: Kontaminierte Kleidung und Haut sofort mit viel Wasser abwaschen und danach Kleidung ausziehen.</item>
+        <item>Bei Exposition: Sofort Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Bei Exposition: Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Bei Exposition oder falls betroffen: Ärztlichen Rat einholen / ärztliche Hilfe hinzuziehen.</item>
+        <item>Bei Exposition oder Unwohlsein: Sofort Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Bei Exposition oder Unwohlsein: Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Bei Hautreizung: Ärztlichen Rat einholen / ärztliche Hilfe hinzuziehen.</item>
+        <item>Bei Hautreizung oder -ausschlag: Ärztlichen Rat einholen / ärztliche Hilfe hinzuziehen.</item>
+        <item>Lose Partikel von der Haut abbürsten. In kaltes Wasser tauchen /nassen Verband anlegen.</item>
+        <item>Bei anhaltender Augenreizung: Ärztlichen Rat einholen / ärztliche Hilfe hinzuziehen.</item>
+        <item>Bei Symptomen der Atemwege: Giftinformationszentrum oder Arzt anrufen.</item>
+        <item>Bei Brand: Undichtigkeit beseitigen, wenn gefahrlos möglich.</item>
+        <item>Bei Brand: ... zum Löschen verwenden.</item>
+        <item>Bei Brand: Umgebung räumen.</item>
+        <item>Bei Brand: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen.</item>
+        <item>Bei Großbrand und großen Mengen: Umgebung räumen. Wegen Explosionsgefahr Brand aus der Entfernung bekämpfen.</item>
+        <item>... aufbewahren.</item>
+        <item>An einem trockenen Ort aufbewahren.</item>
+        <item>An einem gut belüfteten Ort aufbewahren.</item>
+        <item>In einem geschlossenen Behälter aufbewahren.</item>
+        <item>Unter Verschluss aufbewahren.</item>
+        <item>In korrosionsbeständigem /... Behälter mit korrosionsbeständiger Auskleidung aufbewahren.</item>
+        <item>Luftspalt zwischen Stapeln / Paletten lassen.</item>
+        <item>Vor Sonnenbestrahlung schützen.</item>
+        <item>Bei Temperaturen von nicht mehr als ... °C / ... aufbewahren.</item>
+        <item>Nicht Temperaturen von mehr als 50 °C aussetzen.</item>
+        <item>Schüttgut in Mengen von mehr als ... kg bei Temperaturen von nicht mehr als … °C aufbewahren.</item>
+        <item>Von anderen Materialien entfernt aufbewahren.</item>
+        <item>Inhalt in / unter ... aufbewahren</item>
+        <item>In einem geschlossenen Behälter an einem trockenen Ort aufbewahren.</item>
+        <item>Behälter dicht verschlossen an einem gut belüfteten Ort aufbewahren.</item>
+        <item>Kühl an einem gut belüfteten Ort aufbewahren.</item>
+        <item>Vor Sonnenbestrahlung geschützt an einem gut belüfteten Ort aufbewahren.</item>
+        <item>Vor Sonnenbestrahlung schützen und nicht Temperaturen von mehr als 50 °C aussetzen.</item>
+        <item>Kühl und bei Temperaturen von nicht mehr als ... °C aufbewahren.</item>
+        <item>Inhalt / Behälter … zuführen.</item>
+        <item>Informationen zur Wiederverwendung/Wiederverwertung beim Hersteller/Lieferanten erfragen.</item>
+    </string-array>
+
+    <string-array name="euh_values">
+        <item>EUH001</item>
+        <item>EUH006</item>
+        <item>EUH014</item>
+        <item>EUH018</item>
+        <item>EUH019</item>
+        <item>EUH029</item>
+        <item>EUH031</item>
+        <item>EUH032</item>
+        <item>EUH044</item>
+        <item>EUH066</item>
+        <item>EUH070</item>
+        <item>EUH071</item>
+        <item>EUH201</item>
+        <item>EUH201A</item>
+        <item>EUH202</item>
+        <item>EUH203</item>
+        <item>EUH204</item>
+        <item>EUH205</item>
+        <item>EUH206</item>
+        <item>EUH207</item>
+        <item>EUH208</item>
+        <item>EUH209</item>
+        <item>EUH209A</item>
+        <item>EUH210</item>
+        <item>EUH401</item>
+    </string-array>
+
+    <string-array name="euh">
+        <item>In trockenem Zustand explosiv.</item>
+        <item>Mit und ohne Luft explosionsfähig.</item>
+        <item>Reagiert heftig mit Wasser.</item>
+        <item>Kann bei Verwendung explosionsfähige / entzündbare Dampf /Luft-Gemische bilden.</item>
+        <item>Kann explosionsfähige Peroxide bilden.</item>
+        <item>Entwickelt bei Berührung mit Wasser giftige Gase.</item>
+        <item>Entwickelt bei Berührung mit Säure giftige Gase.</item>
+        <item>Entwickelt bei Berührung mit Säure sehr giftige Gase.</item>
+        <item>Explosionsgefahr bei Erhitzen unter Einschluss.</item>
+        <item>Wiederholter Kontakt kann zu spröder oder rissiger Haut führen.</item>
+        <item>Giftig bei Berührung mit den Augen.</item>
+        <item>Wirkt ätzend auf die Atemwege.</item>
+        <item>Enthält Blei. Nicht für den Anstrich von Gegenständen verwenden, die von Kindern gekaut oder gelutscht werden könnten.</item>
+        <item>Achtung! Enthält Blei.</item>
+        <item>Cyanacrylat. Gefahr. Klebt innerhalb von Sekunden Haut und Augenlider zusammen. Darf nicht in die Hände von Kindern gelangen.</item>
+        <item>Enthält Chrom(VI). Kann allergische Reaktionen hervorrufen.</item>
+        <item>Enthält Isocyanate. Kann allergische Reaktionen hervorrufen.</item>
+        <item>Enthält epoxidhaltige Verbindungen. Kann allergische Reaktionen hervorrufen.</item>
+        <item>Achtung! Nicht zusammen mit anderen Produkten verwenden, da gefährliche Gase (Chlor) freigesetzt werden können.</item>
+        <item>Achtung! Enthält Cadmium. Bei der Verwendung entstehen gefährliche Dämpfe. Hinweise des Herstellers beachten. Sicherheitsanweisungen einhalten.</item>
+        <item>Enthält (Name des sensibilisierenden Stoffes). Kann allergische Reaktionen hervorrufen.</item>
+        <item>Kann bei Verwendung leicht entzündbar werden.</item>
+        <item>Kann bei Verwendung entzündbar werden.</item>
+        <item>Sicherheitsdatenblatt auf Anfrage erhältlich.</item>
+        <item>Zur Vermeidung von Risiken für Mensch und Umwelt die Gebrauchsanleitung einhalten.</item>
+    </string-array>
+
+    <string-array name="r_values">
+        <item>R 1</item>
+        <item>R 2</item>
+        <item>R  3 </item>
+        <item>R  4</item>
+        <item>R  5</item>
+        <item>R  6</item>
+        <item>R  7</item>
+        <item>R  8</item>
+        <item>R 9</item>
+        <item>R 10</item>
+        <item>R 11</item>
+        <item>R 12</item>
+        <item>R 14</item>
+        <item>R 15</item>
+        <item>R 16</item>
+        <item>R 17</item>
+        <item>R 18</item>
+        <item>R 19</item>
+        <item>R 20</item>
+        <item>R 21</item>
+        <item>R 22</item>
+        <item>R 23</item>
+        <item>R 24</item>
+        <item>R 25</item>
+        <item>R 26</item>
+        <item>R 27</item>
+        <item>R 28</item>
+        <item>R 29</item>
+        <item>R 30</item>
+        <item>R 31</item>
+        <item>R 32</item>
+        <item>R 33</item>
+        <item>R 34</item>
+        <item>R 35</item>
+        <item>R 36</item>
+        <item>R 37</item>
+        <item>R 38</item>
+        <item>R 39</item>
+        <item>R 40</item>
+        <item>R 41</item>
+        <item>R 42</item>
+        <item>R 43</item>
+        <item>R 44</item>
+        <item>R 45</item>
+        <item>R 46</item>
+        <item>R 48</item>
+        <item>R 49</item>
+        <item>R 50</item>
+        <item>R 51</item>
+        <item>R 52</item>
+        <item>R 53</item>
+        <item>R 54</item>
+        <item>R 55</item>
+        <item>R 56</item>
+        <item>R 57</item>
+        <item>R 58</item>
+        <item>R 59</item>
+        <item>R 60</item>
+        <item>R 61</item>
+        <item>R 62</item>
+        <item>R 63</item>
+        <item>R 64</item>
+        <item>R 65</item>
+        <item>R 66</item>
+        <item>R 67</item>
+        <item>R 68</item>
+        <item>R 14/15</item>
+        <item>R 15/29</item>
+        <item>R 20/21</item>
+        <item>R 20/22</item>
+        <item>R 20/21/22</item>
+        <item>R 21/22</item>
+        <item>R 23/24</item>
+        <item>R 23/25</item>
+        <item>R 23/24/25</item>
+        <item>R 24/25</item>
+        <item>R 26/27</item>
+        <item>R 26/28</item>
+        <item>R 26/27/28</item>
+        <item>R 27/28</item>
+        <item>R 36/37</item>
+        <item>R 36/38</item>
+        <item>R 36/37/38</item>
+        <item>R 37/38</item>
+        <item>R 39/23</item>
+        <item>R 39/24</item>
+        <item>R 39/25</item>
+        <item>R 39/23/24</item>
+        <item>R 39/23/25</item>
+        <item>R 39/24/25</item>
+        <item>R 39/23/24/25</item>
+        <item>R 39/26</item>
+        <item>R 39/27</item>
+        <item>R 39/28</item>
+        <item>R 39/26/27</item>
+        <item>R 39/26/28</item>
+        <item>R 39/27/28</item>
+        <item>R 39/26/27/28</item>
+        <item>R 40/20</item>
+        <item>R 40/21</item>
+        <item>R 40/22</item>
+        <item>R 40/20/21</item>
+        <item>R 40/20/22</item>
+        <item>R 40/21/22</item>
+        <item>R 49/20/21/22</item>
+        <item>R 42/43</item>
+        <item>R 48/20</item>
+        <item>R 48/21</item>
+        <item>R 48/22</item>
+        <item>R 48/20/21</item>
+        <item>R 48/20/22</item>
+        <item>R 48/21/22</item>
+        <item>R 48/20/21/22</item>
+        <item>R 48/23</item>
+        <item>R 48/24</item>
+        <item>R 48/25</item>
+        <item>R 48/23/24</item>
+        <item>R 48/23/25</item>
+        <item>R 48/24/25</item>
+        <item>R 48/23/24/25</item>
+        <item>R 50/53</item>
+        <item>R 51/53</item>
+        <item>R 52/53</item>
+        <item>R 68/20</item>
+        <item>R 68/21</item>
+        <item>R 68/22</item>
+        <item>R 68/20/21</item>
+        <item>R 68/20/22</item>
+        <item>R 68/21/22</item>
+        <item>R 68/20/21/22</item>
+    </string-array>
+
+    <string-array name="r">
+        <item>In trockenem Zustand explosionsgefährlich</item>
+        <item>Durch Schlag, Reibung, Feuer oder andere Zündquellen explosionsgefährlich</item>
+        <item>Durch Schlag, Reibung, Feuer oder andere Zündquellen besonders explosionsgefährlich</item>
+        <item>Bildet hochempfindliche explosionsgefährliche Metallverbindungen</item>
+        <item>Beim Erwärmen explosionsfähig</item>
+        <item>Mit und ohne Luft explosionsfähig</item>
+        <item>Kann Brand verursachen</item>
+        <item>Feuergefahr bei Berührung mit brennbaren Stoffen</item>
+        <item>Explosionsgefahr bei Mischung mit brennbaren Stoffen</item>
+        <item>Entzündlich</item>
+        <item>Leichtentzündlich</item>
+        <item>Hochentzündlich</item>
+        <item>Reagiert heftig mit Wasser</item>
+        <item>Reagiert mit Wasser unter Bildung leicht entzündlicher Gase</item>
+        <item>Explosionsgefährlich in Mischung mit brandfördernden Stoffen</item>
+        <item>Selbstentzündlich an der Luft</item>
+        <item>Bei Gebrauch Bildung explosionsfähiger / leichtentzündlicher Dampf-Luftgemische möglich</item>
+        <item>Kann explosionsfähige Peroxide bilden</item>
+        <item>Gesundheitsschädlich beim Einatmen</item>
+        <item>Gesundheitsschädlich bei Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich beim Verschlucken</item>
+        <item>Giftig beim Einatmen</item>
+        <item>Giftig bei Berührung mit der Haut</item>
+        <item>Giftig beim Verschlucken</item>
+        <item>Sehr giftig beim Einatmen</item>
+        <item>Sehr giftig bei Berührung mit der Haut</item>
+        <item>Sehr giftig beim Verschlucken</item>
+        <item>Entwickelt bei Berührung mit Wasser giftige Gase</item>
+        <item>Kann bei Gebrauch leicht entzündlich werden</item>
+        <item>Entwickelt bei Berührung mit Säure giftige Gase</item>
+        <item>Entwickelt bei Berührung mit Säure sehr giftige Gase</item>
+        <item>Gefahr kumulativer Wirkung</item>
+        <item>Verursacht Verätzungen</item>
+        <item>Verursacht schwere Verätzungen</item>
+        <item>Reizt die Augen</item>
+        <item>Reizt die Atmungsorgane</item>
+        <item>Reizt die Haut</item>
+        <item>Ernste Gefahr irreversiblen Schadens</item>
+        <item>Verdacht auf krebserzeugende Wirkung</item>
+        <item>Gefahr ernster Augenschäden</item>
+        <item>Sensibilisierung durch Einatmen möglich</item>
+        <item>Sensibilisierung durch Hautkontakt möglich</item>
+        <item>Explosionsgefahr bei Erhitzen unter Einschluss</item>
+        <item>Kann Krebs erzeugen</item>
+        <item>Kann vererbbare Schäden verursachen</item>
+        <item>Gefahr ernster Gesundheitsschäden bei längerer Exposition</item>
+        <item>Kann Krebs erzeugen beim Einatmen</item>
+        <item>Sehr giftig für Wasserorganismen</item>
+        <item>Giftig für Wasserorganismen</item>
+        <item>Giftig für Wasserorganismen</item>
+        <item>Kann in Gewässern längerfristig schädliche Wirkungen haben</item>
+        <item>Giftig für Pflanzen</item>
+        <item>Giftig für Tiere</item>
+        <item>Giftig für Bodenorganismen</item>
+        <item>Giftig für Bienen</item>
+        <item>Kann längerfristig schädliche Wirkungen auf die Umwelt haben</item>
+        <item>Gefährlich für die Ozonschicht</item>
+        <item>Kann die Fortpflanzungsfähigkeit beeinträchtigen</item>
+        <item>Kann das Kind im Mutterleib schädigen</item>
+        <item>Kann möglicherweise die Fortpflanzungsfähigkeit beeinträchtigen</item>
+        <item>Kann das Kind im Mutterleib möglicherweise schädigen</item>
+        <item>Kann Säuglinge über die Muttermilch schädigen</item>
+        <item>Gesundheitsschädlich: kann beim Verschlucken Lungenschäden verursachen.</item>
+        <item>Wiederholter Kontakt kann zu spröder oder rissiger Haut führen</item>
+        <item>Dämpfe können Schläfrigkeit oder Benommenheit erzeugen</item>
+        <item>Irreversibler Schaden möglich</item>
+        <item>Reagiert heftig mit Wasser unter Bildung leicht entzündlicher Gase</item>
+        <item>Reagiert mit Wasser unter Bildung giftiger und hochentzündlicher Gase</item>
+        <item>Gesundheitsschädlich beim Einatmen und bei Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich beim Einatmen und Verschlucken</item>
+        <item>Gesundheitsschädlich beim Einatmen, Verschlucken und bei Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich bei Berührung mit der Haut und beim Verschlucken</item>
+        <item>Giftig beim Einatmen und bei Berührung mit der Haut</item>
+        <item>Giftig beim Einatmen und beim Verschlucken</item>
+        <item>Giftig beim Einatmen, Verschlucken und Berührung mit der Haut</item>
+        <item>Giftig bei Berührung mit der Haut und beim Verschlucken</item>
+        <item>Sehr giftig beim Einatmen und bei Berührung mit der Haut</item>
+        <item>Sehr giftig beim Einatmen und Verschlucken</item>
+        <item>Sehr giftig beim Einatmen, Verschlucken und Berührung mit der Haut</item>
+        <item>Sehr giftig bei Berührung mit der Haut und beim Verschlucken</item>
+        <item>Reizt die Augen und die Atmungsorgane</item>
+        <item>Reizt die Augen und die Haut</item>
+        <item>Reizt die Augen, Atmungsorgane und die Haut</item>
+        <item>Reizt Atmungsorgane und die Haut</item>
+        <item>Giftig: ernste Gefahr irreversiblen Schadens durch Einatmen</item>
+        <item>Giftig: ernste Gefahr irreversiblen Schadens bei Berührung mit der Haut</item>
+        <item>Giftig: ernste Gefahr irreversiblen Schadens durch Verschlucken</item>
+        <item>Giftig: ernste Gefahr irreversiblen Schadens durch Einatmen und bei Berührung mit der Haut</item>
+        <item>Giftig: ernste Gefahr irreversiblen Schadens durch Einatmen und durch Verschlucken</item>
+        <item>Giftig: ernste Gefahr irreversiblen Schadens bei Berührung mit der Haut und durch Verschlucken</item>
+        <item>Giftig: ernste Gefahr irreversiblen Schadens durch Einatmen, Berührung mit der Haut und durch Verschlucken</item>
+        <item>Sehr giftig: ernste Gefahr irreversiblen Schadens durch Einatmen</item>
+        <item>Sehr giftig: ernste Gefahr irreversiblen Schadens bei Berührung mit der Haut</item>
+        <item>Sehr giftig: ernste Gefahr irreversiblen Schadens durch Verschlucken</item>
+        <item>Sehr giftig: ernste Gefahr irreversiblen Schadens durch Einatmen und bei Berührung mit der Haut</item>
+        <item>Sehr giftig: ernste Gefahr irreversiblen Schadens durch Einatmen und durch Verschlucken</item>
+        <item>Sehr giftig: ernste Gefahr irreversiblen Schadens bei Berührung mit der Haut und durch Verschlucken</item>
+        <item>Sehr giftig: ernste Gefahr irreversiblen Schadens durch Einatmen, Berührung mit der Haut und durch Verschlucken</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Einatmen</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens bei Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Verschlucken</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Einatmen und bei Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Einatmen und durch Verschlucken</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens bei Berührung mit der Haut und durch  Verschlucken</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Einatmen, Berührung mit der Haut und durch Verschlucken</item>
+        <item>Sensibilisierung durch Einatmen und Hautkontakt möglich</item>
+        <item>Gesundheitsschädlich: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Einatmen</item>
+        <item>Gesundheitsschädlich: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Verschlucken</item>
+        <item>Gesundheitsschädlich: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Einatmen und durch Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Einatmen und durch Verschlucken</item>
+        <item>Gesundheitsschädlich: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Berührung mit der Haut und durch Verschlucken</item>
+        <item>Gesundheitsschädlich: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Einatmen, Berührung mit der Haut und durch Verschlucken</item>
+        <item>Giftig: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Einatmen</item>
+        <item>Giftig: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Berührung mit der Haut</item>
+        <item>Giftig: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Verschlucken</item>
+        <item>Giftig: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Einatmen und durch Berührung mit der Haut</item>
+        <item>Giftig: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Einatmen und durch Verschlucken</item>
+        <item>Giftig: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Berührung mit der Haut und durch Verschlucken</item>
+        <item>Giftig: Gefahr ernster Gesundheitsschäden bei längerer Exposition durch Einatmen, Berührung mit der Haut und durch Verschlucken</item>
+        <item>Sehr giftig für Wasserorganismen, kann in Gewässern längerfristig schädliche Wirkungen haben</item>
+        <item>Giftig für Wasserorganismen, kann in Gewässern längerfristig schädliche Wirkungen haben</item>
+        <item>Schädlich für Wasserorganismen, kann in Gewässern längerfristig schädliche Wirkungen haben</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Einatmen</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens bei Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Verschlucken</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Einatmen und bei Berührung mit der Haut</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Einatmen und durch Verschlucken </item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens bei Berührung mit der Haut und durch Verschlucken</item>
+        <item>Gesundheitsschädlich: Möglichkeit irreversiblen Schadens durch Einatmen, Berührung mit der Haut und durch Verschlucken</item>
+    </string-array>
+
+    <string-array name="ghs_titles">
+        <item>Explodierende Bombe</item>
+        <item>Flamme</item>
+        <item>Flamme über Kreis</item>
+        <item>Gasflasche</item>
+        <item>Ätzwirkung</item>
+        <item>Totenkopf mit Knochen</item>
+        <item>Ausrufezeichen</item>
+        <item>Gesundheitsgefahr</item>
+        <item>Umwelt</item>
+    </string-array>
+
+    <string-array name="ghs_effect">
+        <item>Explodieren durch Feuer, Schlag, Reibung, Erwärmung; Gefahr durch Feuer, Luftdruck, Splitter.</item>
+        <item>Sind entzündbar; Flüssigkeiten bilden mit Luft explosionsfähige Mischungen; erzeugen mit Wasser entzündbare Gase oder sind selbstentzündbar.</item>
+        <item>Wirken oxidierend und verstärken Brände. Bei Mischung mit brennbaren Stoffen entstehen explosionsgefährliche Gemische. </item>
+        <item>Gasflaschen unter Druck können beim Erhitzen explodieren, tiefkalte Gase erzeugen Kälteverbrennungen.</item>
+        <item>Zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.</item>
+        <item>Führen in kleineren Mengen sofort zu schweren gesundheitlichen Schäden oder zum Tode.</item>
+        <item>Führen zu gesundheitlichen Schäden, reizen Augen, Haut oder Atemwegsorgane. Führen in größeren Mengen zum Tode.</item>
+        <item>Wirken allergieauslösend, krebserzeugend (carcinogen), erbgutverändernd (mutagen), fortpflanzungsgefährdend und fruchtschädigend (reprotoxisch) oder organschädigend.</item>
+        <item>Sind für Wasserorganismen schädlich, giftig oder sehr giftig, akut oder mit Langzeitwirkung.</item>
+    </string-array>
+
+    <string-array name="ghs_instructions">
+        <item>Nicht reiben oder stoßen, Feuer, Funken und jede Wärmeentwicklung vermeiden.</item>
+        <item>Von offenen Flammen und Wärmequellen fernhalten; Gefäße dicht schließen; brandsicher aufbewahren.</item>
+        <item>Von brennbaren Stoffen fernhalten und nicht mit diesen mischen; sauber aufbewahren.</item>
+        <item>Nicht erhitzen; bei tiefkalten Gasen Schutzhandschuhe und Schutzbrille tragen.</item>
+        <item>Kontakt vermeiden; Schutzbrille und Handschuhe tragen. Bei Kontakt Augen und Haut mit Wasser spülen.</item>
+        <item>Nicht einatmen, berühren,  verschlucken. Arbeitsschutz tragen. Sofort Gift- informationszentrum oder Arzt anrufen. Stabile Seitenlage.</item>
+        <item>Nicht einatmen, berühren,  verschlucken. Arbeitsschutz tragen. Sofort Gift- informationszentrum oder Arzt anrufen. Stabile Seitenlage. Bei Hautreizungen oder Augenkontakt mit Wasser oder geeignetem Mittel spülen.</item>
+        <item>Vor der Arbeit mit solchen Stoffen muss man sich gut informieren; Schutzkleidung und Handschuhe, Augen- und Mundschutz oder Atemschutz tragen. </item>
+        <item>Nur im Sondermüll entsorgen, keinesfalls in die Umwelt gelangen lassen.</item>
+    </string-array>
+
+    <string-array name="class_titles">
+        <item>Sprengstoffe</item>
+        <item>Entzündbare Gase</item>
+        <item>Nicht Entzündbare Gase</item>
+        <item>Giftige Gase</item>
+        <item>Entzündbare flüssige Stoffe</item>
+        <item>Entzündbare feste Stoffe</item>
+        <item>Selbstentzündliche Stoffe</item>
+        <item>Mit Wasser entzündliche Gase bildend</item>
+        <item>Entzündend wirkende Stoffe</item>
+        <item>Organische Peroxide</item>
+        <item>Giftige Stoffe</item>
+        <item>Ansteckungsgefährliche Stoffe</item>
+        <item>Radioaktive Stoffe</item>
+        <item>Ätzende Stoffe</item>
+        <item>Verschiedene Stoffe</item>
+    </string-array>
+
+    <string-array name="symbols_titles">
+        <item>Giftig</item>
+        <item>Gesundheitsschädlich</item>
+        <item>Reizend</item>
+        <item>Ätzend</item>
+        <item>Hochentzündlich</item>
+        <item>Brandfördernd</item>
+        <item>Explosionsgefährich</item>
+        <item>Umweltgefährlich</item>
+    </string-array>
+
+    <string-array name="symbols_effect">
+        <item>Führt in geringen Mengen zu schweren gesundheitlichen  Schäden oder zum Tode.</item>
+        <item>Führt in größeren Mengen zu gesundheitlichen Schäden oder zum Tode.</item>
+        <item>Führt bei Berührung mit Haut oder Augen zu Entzündungen und reizt die Atemwege.</item>
+        <item>Zerstört Haut- und Körpergewebe, irreparable Augenschäden sind möglich</item>
+        <item>Brennt und bildet mit Luft explosionsfähige Gemische.</item>
+        <item>Bei Mischung mit brennbaren Stoffen entstehen explosionsgefährliche Gemische.</item>
+        <item>Explodiert durch Schlag, Reibung, Funkenbildung, Feuer oder durch Hitzeentwicklung.</item>
+        <item>Ist für Wasser- oder Bodenorganismen giftig und kann Ökosysteme schädigen.</item>
+    </string-array>
+
+    <string-array name="symbols_instructions">
+        <item>Nicht einatmen, berühren, verschlucken, bei Vergiftungen Arzt aufsuchen!</item>
+        <item>Nicht einatmen, berühren, verschlucken, bei Kontakt Arzt aufsuchen, Erbrechen verursachen, Gegengift, Magen auspumpen!</item>
+        <item>Nicht einatmen, nicht berühren, Kontakt mit den Augen vermeiden.</item>
+        <item>Berührung mit Haut und Augen meiden, Schutzbrille und Handschuhe tragen.</item>
+        <item>Von offenen Flammen und Wärmequellen fernhalten, Flaschen immer schließen.</item>
+        <item>Nicht mit brennbaren Stoffen mischen, Reibung meiden, sauber aufbewahren.</item>
+        <item>Anmeldepflichtig, nicht reiben, stoßen, Feuer-, Wärmeentwicklung meiden.</item>
+        <item>Nur im Sondermüll entsorgen, keinesfalls in die Umwelt gelangen lassen.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <color name="android_green">#FFA4C639</color>
+    <color name="honeycombish_blue">#FF58BAED</color>
+    <color name="soft_grey">#FF777777</color>
+    <color name="background">#FFEFEFEF</color>
+    <color name="transparent">#00000000</color>
+    <color name="main_green">#FF009262</color>
+    <color name="grey_transparent">#409b9b9b</color>
+</resources>

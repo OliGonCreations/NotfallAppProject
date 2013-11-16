@@ -1,0 +1,5 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/main_green" />
+    <item android:drawable="@drawable/selectable_item_background" />
+</layer-list>
+<!-- From: file:/home/jonas/Dokumente/Development/Android%20Workspace/NotfallAppProject/NotfallApp/src/main/res/drawable/finish_background.xml -->

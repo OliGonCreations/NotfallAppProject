@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/dialog_title"
+        android:layout_gravity="left|center_vertical"
+        android:textSize="32sp"
+        android:text="@string/dialog_about_title"
+        android:textColor="#707070"
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="18dp" />
+
+    <View
+        android:layout_below="@+id/dialog_title"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/main_green" />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dialog_title"
+        android:id="@+id/versionNumber"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textColor="#707070"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/versionNumber"
+        android:id="@+id/aboutText"
+        android:text="@string/dialog_about_developer"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="#707070"/>
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_about_text"
+        android:id="@+id/textView"
+        android:layout_below="@+id/aboutText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" />-->
+
+    <Button
+        style="@style/ButtonBarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_store"
+        android:textColor="#ff5f5f5f"
+        android:id="@+id/dialog_play_store"
+        android:layout_below="@+id/aboutText"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:drawableLeft="@drawable/ic_play_store"
+        android:drawablePadding="2dip"
+        android:paddingLeft="18dp"
+        android:paddingRight="24dip"
+        android:background="@drawable/button_background"/>
+</RelativeLayout>
