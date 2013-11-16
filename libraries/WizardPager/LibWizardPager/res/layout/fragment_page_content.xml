@@ -47,6 +47,6 @@
     <SurfaceView
         android:id="@+id/surfaceView"
         android:layout_width="1px"
-        android:layout_height="1px" />
+        android:layout_height="1px"/>
 
 </LinearLayout>

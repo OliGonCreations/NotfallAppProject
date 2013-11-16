@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -26,10 +28,12 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
+
 import co.juliansuarez.libwizardpager.R;
 import co.juliansuarez.libwizardpager.wizard.model.Page;
 
-public class ContentFragment extends Fragment implements AdapterView.OnItemClickListener, AdapterView.OnItemSelectedListener {
+public class ContentFragment extends Fragment implements AdapterView.OnItemClickListener, AdapterView.OnItemSelectedListener, SurfaceHolder.Callback {
     public static final String ARG_KEY = "key";
 
     private PageFragmentCallbacks mCallbacks;
@@ -46,8 +50,10 @@ public class ContentFragment extends Fragment implements AdapterView.OnItemClick
 
     private int page;
 
-    private Camera camera = null;
-    private boolean isCameraInUse = false;
+    private Camera mCamera;
+    private SurfaceView mCameraPreviewSurface;
+    private boolean mActive;
+    private SurfaceHolder mCameraSurfaceHolder;
 
     public static ContentFragment create(String key) {
         Bundle args = new Bundle();
@@ -65,6 +71,7 @@ public class ContentFragment extends Fragment implements AdapterView.OnItemClick
         Bundle args = getArguments();
         mKey = args.getString(ARG_KEY);
         mPage = mCallbacks.onGetPage(mKey);
+        mActive = false;
     }
 
     @Override
@@ -175,63 +182,20 @@ public class ContentFragment extends Fragment implements AdapterView.OnItemClick
         } else if (mPage.getTitle().equals("Fluchtweg")) {
             text.setText(getString(R.string.fire_exit));
             image.setImageDrawable(getResources().getDrawable(R.drawable.ic_behavior_fire_exit));
-            /*action.setVisibility(View.VISIBLE);
+            action.setVisibility(View.VISIBLE);
             action.setText(getString(R.string.fire_light));
+            mCameraPreviewSurface = (SurfaceView) rootView.findViewById(R.id.surfaceView);
+            mCameraPreviewSurface.getHolder().addCallback(this);
             action.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    final SurfaceView surfaceView = (SurfaceView) getActivity().findViewById(R.id.surfaceView);
-                    SurfaceHolder surfaceHolder = surfaceView.getHolder();
-                    surfaceHolder.addCallback(new SurfaceHolder.Callback() {
-                        @Override
-                        public void surfaceCreated(SurfaceHolder holder) {
-                            try {
-                                camera.setPreviewDisplay(holder);
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                        }
-
-                        @Override
-                        public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
-
-                        }
-
-                        @Override
-                        public void surfaceDestroyed(SurfaceHolder holder) {
-
-                        }
-                    });
-                    new Thread(new Runnable() {
-                        @Override
-                        public void run() {
-                            isCameraInUse = true;
-                            try {
-                                camera = Camera.open();
-                            } catch (RuntimeException e) {
-                                isCameraInUse = false;
-                                camera.stopPreview();
-                                camera.release();
-                                return;
-                            }
-                            Camera.Parameters p = camera.getParameters();
-                            p.setFlashMode(Camera.Parameters.FLASH_MODE_ON);
-                            Log.d("test", p.getFlashMode());
-                            p.setFocusMode(Camera.Parameters.FOCUS_MODE_INFINITY);
-                            camera.setParameters(p);
-                            camera.startPreview();
-
-                        }
-                    }).start();
-                    if(!isCameraInUse) {
-                        getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-                        Toast.makeText(getActivity(), "Turned on", Toast.LENGTH_SHORT).show();
-                    } else {
-                        getActivity().getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-                        Toast.makeText(getActivity(), "Turned off", Toast.LENGTH_SHORT).show();
-                    }
+                    toggleLEDFlash();
+                    if(mActive)
+                        ((Button)v).setText(getString(R.string.fire_light_off));
+                    else
+                        ((Button)v).setText(getString(R.string.fire_light));
                 }
-            });*/
+            });
         } else if (mPage.getTitle().equals("Notruf")) {
             text.setText(getString(R.string.amok_emergency));
             image.setVisibility(View.GONE);
@@ -265,6 +229,13 @@ public class ContentFragment extends Fragment implements AdapterView.OnItemClick
     public void onDetach() {
         super.onDetach();
         mCallbacks = null;
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        setLEDFlashOff();
+        //releaseResources();
     }
 
     @Override
@@ -400,6 +371,65 @@ public class ContentFragment extends Fragment implements AdapterView.OnItemClick
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    @Override
+    public void surfaceCreated(SurfaceHolder holder) {
+        mCameraSurfaceHolder = holder;
+    }
+
+    @Override
+    public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+
+    }
+
+    @Override
+    public void surfaceDestroyed(SurfaceHolder holder) {
+
+    }
+
+    public void toggleLEDFlash() {
+        if (mActive) {
+            setLEDFlashOff();
+        } else {
+            setLEDFlashOn();
+        }
+    }
+
+    public void setLEDFlashOn() {
+        if (!mActive) {
+            mCamera = Camera.open();
+            Camera.Parameters parameters = mCamera.getParameters();
+            parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_INFINITY);
+            parameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
+            mCamera.setParameters(parameters);
+            try {
+                mCamera.setPreviewDisplay(mCameraSurfaceHolder);
+            } catch (IOException e) {
+                e.printStackTrace();
+                return;
+            }
+            mCamera.startPreview();
+            mActive = true;
+        }
+    }
+
+    public void setLEDFlashOff() {
+        if (mActive) {
+            mCamera.release();
+            mCamera = null;
+            mActive = false;
+        }
+    }
+
+    public void releaseResources() {
+        if (mCamera != null) {
+            mActive = false;
+            mCamera.stopPreview();
+            mCamera.release();
+            mCamera = null;
+        }
+        mCameraPreviewSurface.getHolder().removeCallback(this);
     }
 
     private class CustomListImageAdapter extends BaseAdapter {

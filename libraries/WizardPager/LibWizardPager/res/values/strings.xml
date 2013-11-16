@@ -24,6 +24,7 @@
     <string name="fire_missing">Bei Ankunft am Sammelplatz, kontrolliert die Lehrkraft ob alle Schüler das Gebäude verlassen haben.\n\nFehlende Schüler sind der Schul-bzw. Einsatzleitung zu melden. Dort wird auch von Lerngruppen ohne Lehrkraft, die ihre Vollzähligkeit am Sammelplatz überprüft haben, gemeldet, ob alle Schüler der Lerngruppe am Sammelplatz sind.</string>
     <string name="fire_exit">Fluchtwege sind durch grüne Schilder im Gebäude markiert. Diesen ist im Notfall zu folgen.</string>
     <string name="fire_light">Taschenlampe an</string>
+    <string name="fire_light_off">Taschenlampe aus</string>
 
     <string name="amok_emergency">Beim Notruf sollten Anrufer, Tatort, Sachverhalt, Täter, Opfer und Erreichbarkeit genannt werden.\n\nNach dem Notruf wird auch das Sekretariat informiert.</string>
     <string name="amok_behavior">Einschließen - verbarrikadieren\nFinger weg von Waffen!\n\nIn Ausnahmen Flucht ergreifen\nNach der Flucht zu den Rettungskräften</string>
