@@ -23,22 +23,13 @@ public class WizardModel extends AbstractWizardModel implements SingleFixedChoic
                 new ContentPage(this, "Entdecken"),
                 new ContentPage(this, "Retten vor löschen!"),
                 new ContentPage(this, "Fenster schließen"),
-    //            new BranchPage(this, "Fluchtwege", this).addBranch(
-    //                    "Neubau",
-    //                    new ContentPage(this, "Neubau")
-    //            ).addBranch(
-    //                    "5er Räume",
-    //                    new ContentPage(this, "5er Räume")
-    //            ).addBranch(
-    //                    "NwT Räume",
-    //                    new ContentPage(this, "NwT Räume")
-    //            ),
                 new ContentPage(this, "Fluchtweg"),
                 new ContentPage(this, "Flucht unmöglich?"),
                 new ContentPage(this, "Vermisste?"))
         .addBranch("Amoklauf", new ContentPage(this, "Notruf"),
                 new ContentPage(this, "Verhalten"))
         .addBranch("Chemieunfall",
+                new ContentPage(this, "Verhalten bei Chemieunfällen"),
                 new ContentPage(this, "Gefahrensymbole"),
                 new ContentPage(this, "Warnhinweise"))
     //    .addBranch("Sonstiger Unfall", new BranchPage(this, "Unfallart", this)

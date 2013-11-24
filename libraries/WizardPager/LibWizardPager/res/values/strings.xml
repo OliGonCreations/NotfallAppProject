@@ -29,6 +29,8 @@
     <string name="amok_emergency">Beim Notruf sollten Anrufer, Tatort, Sachverhalt, Täter, Opfer und Erreichbarkeit genannt werden.\n\nNach dem Notruf wird auch das Sekretariat informiert.</string>
     <string name="amok_behavior">Einschließen - verbarrikadieren\nFinger weg von Waffen!\n\nIn Ausnahmen Flucht ergreifen\nNach der Flucht zu den Rettungskräften</string>
 
+    <string name="chemistry_behaviour">-In geschlossene Räume begeben und Aufent</string>
+
     <string name="aide_firstview">Zunächst die Lage überblicken und sich einen Eindruck der Lage verschaffen</string>
     <string name="aide_safety">Sicherheit geht vor!\nDen Unfallort ausreichend absichern; Warndreieck, Fahrzeug quer auf die Straße;</string>
     <string name="aide_lsm">Patienten auf Bewusstlosigkeit überprüfen; Stabile Seitenlage; Druckverband; Herz-Lungen-Wiederbelebung</string>

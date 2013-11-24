@@ -1,12 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/action_alarm"
-        android:title="@string/action_alarm"
+        android:id="@+id/action_getposition"
+        android:title="@string/action_getposition"
         android:showAsAction="ifRoom"
-        android:icon="@drawable/ic_action_alarm" />
+        android:icon="@drawable/ic_action_getposition"/>
     <item
-        android:id="@+id/action_location"
-        android:title="@string/action_location"
+        android:id="@+id/action_share_location"
+        android:title="@string/action_share_location"
         android:showAsAction="never"/>
     <item
         android:id="@+id/action_settings"

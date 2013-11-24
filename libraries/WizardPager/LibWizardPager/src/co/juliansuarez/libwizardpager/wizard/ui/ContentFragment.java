@@ -213,6 +213,9 @@ public class ContentFragment extends Fragment implements AdapterView.OnItemClick
         } else if (mPage.getTitle().equals("Verhalten")) {
             text.setText(getString(R.string.amok_behavior));
             image.setVisibility(View.GONE);
+        } else if (mPage.getTitle().equals("Verhalten bei Chemieunfällen")) {
+            text.setText(getString(R.string.chemistry_behaviour));
+            image.setVisibility(View.GONE);
         }
         return rootView;
     }

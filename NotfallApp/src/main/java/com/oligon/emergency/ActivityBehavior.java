@@ -15,6 +15,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockDialogFragment;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
@@ -104,22 +105,11 @@ public class ActivityBehavior extends SherlockFragmentActivity implements PageFr
                         public Dialog onCreateDialog(Bundle savedInstanceState) {
                             return new AlertDialog.Builder(getActivity())
                                     .setTitle(R.string.submit_confirm_message)
-                                    .setItems(R.array.emergency_numbers, new DialogInterface.OnClickListener() {
+                                    .setItems(R.array.numbers_title, new DialogInterface.OnClickListener() {
                                         public void onClick(DialogInterface dialog, int which) {
-                                            String number = "tel:";
-                                            switch (which) {
-                                                case 0:
-                                                    number += "112";
-                                                    break;
-                                                case 1:
-                                                    number += "110";
-                                                    break;
-                                                case 2:
-                                                    number += "000";
-                                                    break;
-                                            }
+                                            Toast.makeText(getApplicationContext(), R.string.confirm, Toast.LENGTH_SHORT).show();
                                             Intent intent = new Intent(Intent.ACTION_DIAL);
-                                            intent.setData(Uri.parse(number));
+                                            intent.setData(Uri.parse("tel:" + getResources().getStringArray(R.array.numbers_number)[which]));
                                             startActivity(intent);
                                         }
                                     }).create();
@@ -165,20 +155,16 @@ public class ActivityBehavior extends SherlockFragmentActivity implements PageFr
             mNextButton.setBackgroundResource(R.drawable.finish_background);
             mNextButton.setTextAppearance(this, R.style.TextAppearanceFinish);
         } else {
-            mNextButton.setText(mEditingAfterReview ? R.string.review
-                    : R.string.next);
-            mNextButton
-                    .setBackgroundResource(R.drawable.selectable_item_background);
+            mNextButton.setText(mEditingAfterReview ? R.string.review : R.string.next);
+            mNextButton.setBackgroundResource(R.drawable.selectable_item_background);
             TypedValue v = new TypedValue();
-            getTheme().resolveAttribute(android.R.attr.textAppearanceMedium, v,
-                    true);
+            getTheme().resolveAttribute(android.R.attr.textAppearanceMedium, v, true);
             mNextButton.setTextAppearance(this, v.resourceId);
             mPrevButton.setTextAppearance(this, v.resourceId);
             mNextButton.setEnabled(position != mPagerAdapter.getCutOffPage());
         }
 
-        mPrevButton
-                .setVisibility(position <= 0 ? View.INVISIBLE : View.VISIBLE);
+        mPrevButton.setVisibility(position <= 0 ? View.INVISIBLE : View.VISIBLE);
     }
 
     @Override
@@ -247,7 +233,7 @@ public class ActivityBehavior extends SherlockFragmentActivity implements PageFr
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getSupportMenuInflater().inflate(R.menu.activity_main, menu);
+        getSupportMenuInflater().inflate(R.menu.activity_main_reduced, menu);
         return true;
     }
 

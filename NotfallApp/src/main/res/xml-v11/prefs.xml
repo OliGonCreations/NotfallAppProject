@@ -7,14 +7,7 @@
             android:title="@string/prefs_notification"
             android:summary="@string/prefs_notification_descr"/>
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/category_user">
-        <EditTextPreference android:key="prefs_user_name"
-            android:title="@string/prefs_user_name"
-            android:dialogMessage="@string/prefs_user_name_disclaimer"
-            android:hint="@string/prefs_user_name_hint"
-            android:inputType="textCapWords"/>
-    </PreferenceCategory>
-    <!--<PreferenceCategory android:title="@string/category_nfc">
+    <PreferenceCategory android:title="@string/category_nfc">
         <Preference
             android:key="prefs_nfc_write"
             android:title="@string/prefs_nfc_write"/>
@@ -26,5 +19,12 @@
         <Preference
             android:key="prefs_alarm_texts"
             android:title="@string/prefs_alarm_texts"/>
-    </PreferenceCategory>-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_user">
+        <EditTextPreference android:key="prefs_user_name"
+            android:title="@string/prefs_user_name"
+            android:dialogMessage="@string/prefs_user_name_disclaimer"
+            android:hint="@string/prefs_user_name_hint"
+            android:inputType="textCapWords"/>
+    </PreferenceCategory>
 </PreferenceScreen>

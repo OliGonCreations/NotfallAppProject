@@ -50,7 +50,7 @@ public class ActivityNumbers extends SherlockListActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getSupportMenuInflater().inflate(R.menu.activity_main, menu);
+        getSupportMenuInflater().inflate(R.menu.activity_main_reduced, menu);
         return true;
     }
 
@@ -72,7 +72,7 @@ public class ActivityNumbers extends SherlockListActivity {
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
-        Toast.makeText(this, "Bestätigen.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.confirm, Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:" + adapter.getNumber(position).trim()));
         startActivity(intent);

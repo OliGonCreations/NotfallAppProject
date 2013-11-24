@@ -31,31 +31,60 @@
       </layout>
     </layouts>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="emer" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f32ae-18ba-49e8-90a0-3594307646ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/NFCProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_panic.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/DatabaseHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/DialogPanic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/DynamicListView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/StableArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main_reduced.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/layout/activity_map.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_map.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_nfc_write.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_prefs_numbers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_prefs_sms.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/xml/nfc_tech_list.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/xml-v11/prefs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/layout/text_view.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../ColorHexProject/ColorHex/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../ColorHexProject/ColorHex/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../ColorHexProject/ColorHex/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/classes.jar" afterPath="$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ColorHexProject/ColorHex/src/main/ic_launcher-web.png" afterPath="$PROJECT_DIR$/../ColorHexProject/ColorHex/src/main/ic_launcher-web.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityBehavior.java" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityBehavior.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMain.java" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityNumbers.java" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityNumbers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivitySettings.java" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivitySettings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/NotfallApp/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/AndroidManifest.xml" afterPath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ComActionbarsherlockActionbarsherlock440_aar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ComActionbarsherlockActionbarsherlock440_aar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ContentFragment.java" afterPath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ContentFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/LocationHelper.java" afterPath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/LocationHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/NFCProvider.java" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/NFCProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/NotfallApp.iml" afterPath="$PROJECT_DIR$/NotfallApp/NotfallApp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/build/source/r/debug/co/juliansuarez/libwizardpager/R.java" afterPath="$PROJECT_DIR$/NotfallApp/build/source/r/debug/co/juliansuarez/libwizardpager/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/build/source/r/debug/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/NotfallApp/build/source/r/debug/com/actionbarsherlock/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/build/source/r/debug/com/oligon/emergency/R.java" afterPath="$PROJECT_DIR$/NotfallApp/build/source/r/debug/com/oligon/emergency/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/build/source/r/debug/co/juliansuarez/libwizardpager/R.java" afterPath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/build/source/r/debug/co/juliansuarez/libwizardpager/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/build/source/r/release/co/juliansuarez/libwizardpager/R.java" afterPath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/build/source/r/release/co/juliansuarez/libwizardpager/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/R.txt" afterPath="$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WidgetProvider.java" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WidgetProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WizardModel.java" afterPath="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WizardModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main.xml" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_about.xml" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/res/values/arrays.xml" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/build.gradle" afterPath="$PROJECT_DIR$/NotfallApp/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/fragment_page_content.xml" afterPath="$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/fragment_page_content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/layout/fragment_page_content.xml" afterPath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/layout/fragment_page_content.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ColorHexProject/gradlew" afterPath="$PROJECT_DIR$/../ColorHexProject/gradlew" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/res/xml/prefs.xml" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/xml/prefs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/strings.xml" afterPath="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/NotfallApp/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/values/values.xml" afterPath="$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ColorHexProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ColorHexProject/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -127,97 +156,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReviewFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ReviewFragment.java">
+      <file leaf-file-name="ActivitySettings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivitySettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="254" column="5" selection-start="7295" selection-end="9047" vertical-scroll-proportion="0.0" vertical-offset="4018" max-vertical-offset="4428">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityMain.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="46" selection-start="6309" selection-end="6309" vertical-scroll-proportion="2.0236685" vertical-offset="1080" max-vertical-offset="2394">
-              <folding>
-                <element signature="e#2252#2290#0" expanded="true" />
-                <element signature="e#2336#2376#0" expanded="true" />
-                <element signature="e#2600#2627#0" expanded="true" />
-                <element signature="e#2809#2837#0" expanded="true" />
-                <element signature="e#5480#6383#0" expanded="true" />
-                <element signature="e#5668#6349#0" expanded="true" />
-                <element signature="e#6330#6331#0" expanded="true" />
-                <element signature="e#6372#6373#0" expanded="true" />
-                <element signature="e#6439#6623#0" expanded="true" />
-                <element signature="e#6612#6613#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="65" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1926">
+            <state line="196" column="29" selection-start="8794" selection-end="8794" vertical-scroll-proportion="0.0" vertical-offset="3528" max-vertical-offset="7056">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialog_panic.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_panic.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="43" selection-start="1126" selection-end="1126" vertical-scroll-proportion="1.3103448" vertical-offset="578" max-vertical-offset="900">
-              <folding>
-                <element signature="e#472#500#0" expanded="true" />
-                <element signature="e#1190#1223#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="dialog_prefs_numbers.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_prefs_numbers.xml">
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="39" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="756">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialog_prefs_sms.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_prefs_sms.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="35" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="558">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="79" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="756">
+            <state line="38" column="63" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialog_about.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_about.xml">
+      <file leaf-file-name="DatabaseHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/DatabaseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="37" selection-start="1674" selection-end="1674" vertical-scroll-proportion="-27.310345" vertical-offset="0" max-vertical-offset="1260">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="50" selection-start="2902" selection-end="2902" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+            <state line="78" column="20" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.8202995" vertical-offset="911" max-vertical-offset="1566">
               <folding>
-                <element signature="e#137#159#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,10 +212,47 @@
       <file leaf-file-name="NFCProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/NFCProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="52" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="16" column="12" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialog_nfc_write.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_nfc_write.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="33" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1440">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrays.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/values/arrays.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="53" selection-start="1355" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="43" selection-start="4843" selection-end="4843" vertical-scroll-proportion="0.0" vertical-offset="1746" max-vertical-offset="2070">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogPanic.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/DialogPanic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="26" selection-start="1745" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1638">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -585,9 +608,9 @@
                 <option name="name" value="androidDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare NotfallAppProject.libraries.ActionBarSherlock:actionbarsherlock:unspecified" />
+                <option name="description" value="Prepare com.actionbarsherlock:actionbarsherlock:4.4.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareNotfallAppProjectLibrariesActionBarSherlockActionbarsherlockUnspecifiedLibrary" />
+                <option name="name" value="prepareComActionbarsherlockActionbarsherlock440Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build" />
@@ -614,6 +637,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services:4.0.30" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServices4030Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant" />
@@ -905,6 +933,11 @@
                 <option name="description" value="Prepare com.actionbarsherlock:actionbarsherlock:4.4.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NotfallApp" />
                 <option name="name" value="prepareComActionbarsherlockActionbarsherlock440Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services:4.0.30" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NotfallApp" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServices4030Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NotfallApp" />
@@ -1340,45 +1373,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/widget_config.xml" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/widget_layout_lock.xml" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/xml/widget_info.xml" />
-        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/SingleChoiceFragment.java" />
-        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/libraries/ActionBarSherlock/actionbarsherlock/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/libraries/ActionBarSherlock/build.gradle" />
-        <option value="$PROJECT_DIR$/libraries/ActionBarSherlock/actionbarsherlock/actionbarsherlock.iml" />
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/libraries/ActionBarSherlock/actionbarsherlock/build.gradle" />
-        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values-small/dimens.xml" />
         <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/layout/fragment_page.xml" />
         <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/layout/list_item_review.xml" />
         <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/build.gradle" />
-        <option value="$PROJECT_DIR$/NotfallApp/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WizardModel.java" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityNumbers.java" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityBehavior.java" />
         <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WidgetProvider.java" />
         <option value="$PROJECT_DIR$/NotfallApp/src/main/res/drawable/background_clickable_card.xml" />
         <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/widget_layout_large.xml" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/NFCProvider.java" />
         <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/layout/fragment_page_content.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_about.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_panic.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/DialogPanic.java" />
+        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/LocationHelper.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WizardModel.java" />
         <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ContentFragment.java" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main.xml" />
-        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ReviewFragment.java" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_about.xml" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_panic.xml" />
-        <option value="$PROJECT_DIR$/NotfallApp/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/LocationHelper.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main_reduced.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/activity_map.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_map.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ui/StableArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/fragment_prefs_numbers.xml" />
         <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMain.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ui/FragmentPrefsNumbers.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/DynamicListView.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/text_view.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/StableArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/xml/nfc_tech_list.xml" />
+        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/build.gradle" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/preference_edittext.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/xml-v11/prefs.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/xml/prefs.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WidgetProvider.java" />
+        <option value="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ReviewFragment.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityBehavior.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityNumbers.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMap.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_nfc_write.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/values/arrays.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/NFCProvider.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_prefs_numbers.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivitySettings.java" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_prefs_sms.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/DatabaseHandler.java" />
       </list>
     </option>
   </component>
@@ -1408,6 +1453,11 @@
             <id>Probable bugs</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -1500,6 +1550,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1602,41 +1653,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="emergency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1669,128 +1690,13 @@
               <option name="myItemId" value="emergency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WizardPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WizardPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibWizardPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WizardPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibWizardPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotfallAppProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WizardPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibWizardPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wizard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1801,7 +1707,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="ExportedApkPath" value="$PROJECT_DIR$/../../APKs/NotfallApp-test.apk" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="android.dex.compiler" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="ExportedModule" value="NotfallApp" />
@@ -1820,11 +1726,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NotfallApp/src/main/res/xml-v11" />
+      <recent name="$PROJECT_DIR$/NotfallApp/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ui" />
       <recent name="$PROJECT_DIR$/libraries/ActionBarSherlock" />
       <recent name="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values-small" />
-      <recent name="$PROJECT_DIR$/NotfallApp/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/drawable" />
-      <recent name="$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/drawable-xhdpi" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.oligon.emergency" />
@@ -1872,19 +1778,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1910,6 +1803,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2104,7 +2010,11 @@
       <created>1384599342803</created>
       <updated>1384599342803</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new features">
+      <created>1384618461578</created>
+      <updated>1384618461578</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2114,29 +2024,29 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939324" sideWeight="0.23434992" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.8168903" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993808" sideWeight="0.50039464" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24428684" sideWeight="0.6805779" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2647059" sideWeight="0.3970008" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2647059" sideWeight="0.6029992" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.7616099" sideWeight="0.49960598" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.7306501" sideWeight="0.49960598" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986301" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25059476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2415154" sideWeight="0.23671497" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41021672" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23993686" sideWeight="0.23671497" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15634675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939324" sideWeight="0.23434992" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32507738" sideWeight="0.49960536" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993808" sideWeight="0.49960536" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2145,13 +2055,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7656501" sideWeight="0.500394" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24428684" sideWeight="0.6805779" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24390244" sideWeight="0.58747995" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41252005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -2164,8 +2074,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423756" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7656501" sideWeight="0.49960598" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986301" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967898" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -2189,164 +2099,62 @@
     <MESSAGE value="New changelist" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added new features&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new features&#10;" />
+    <MESSAGE value="new features" />
+    <option name="LAST_COMMIT_MESSAGE" value="new features" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/drawable-xxhdpi/ic_symbols4_hq.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/drawable-xxhdpi/ic_symbols5_hq.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/drawable-xxhdpi/ic_symbols6_hq.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/drawable-xxhdpi/ic_symbols7_hq.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/dialog_ghs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1656" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/dialog_transparent_image.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="396" />
+        <state line="44" column="19" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.6086956" vertical-offset="596" max-vertical-offset="918">
+          <folding />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_panic.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/fragment_page.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="342" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+        <state line="30" column="43" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="900">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/fragment_page_content.xml">
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/content/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1026" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+        <state line="2025" column="31" selection-start="93414" selection-end="93414" vertical-scroll-proportion="0.33333334" vertical-offset="35541" max-vertical-offset="52164" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/fragment_page_ghs.xml">
+    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/LocationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1476" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+        <state line="50" column="31" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1188" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/fragment_page_list.xml">
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WizardModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="522" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+        <state line="31" column="67" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1062">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/list_item_image.xml">
+    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="576" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+        <state line="31" column="80" selection-start="3363" selection-end="3363" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="756">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/layout/list_item_review.xml">
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="20484" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/values-small/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/values-v14/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/color/abs__primary_text_disable_only_holo_light.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/res/values-v16/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/exploded-bundles/NotfallAppProjectLibrariesWizardPagerLibWizardPagerUnspecified.aar/R.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2322" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/source/buildConfig/debug/com/oligon/emergency/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/source/r/debug/co/juliansuarez/libwizardpager/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2790" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/source/r/debug/com/actionbarsherlock/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10908" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/build/source/r/debug/com/oligon/emergency/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="64422" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable-xhdpi/ic_launcher1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="452" selection-end="452" vertical-scroll-proportion="0.29220778" vertical-offset="0" max-vertical-offset="616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
+        <state line="7" column="50" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -2356,223 +2164,316 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/model/ReviewItem.java">
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main_reduced.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="663" selection-end="663" vertical-scroll-proportion="0.116883114" vertical-offset="0" max-vertical-offset="810">
+        <state line="3" column="4" selection-start="110" selection-end="455" vertical-scroll-proportion="0.10485437" vertical-offset="0" max-vertical-offset="515">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable/item_background_holo_light.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="898" selection-end="1869" vertical-scroll-proportion="0.74875206" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable/background_card.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable/background_clickable_card.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="146" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="336" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/widget_layout_large.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="54" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.16875" vertical-offset="1026" max-vertical-offset="1854">
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/activity_map.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="755" selection-end="755" vertical-scroll-proportion="-1.8051575" vertical-offset="702" max-vertical-offset="2016" />
+        <state line="10" column="24" selection-start="448" selection-end="448" vertical-scroll-proportion="0.37037036" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_map.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="46" selection-start="363" selection-end="363" vertical-scroll-proportion="0.3145631" vertical-offset="0" max-vertical-offset="515">
+          <folding>
+            <element signature="e#183#211#0" expanded="false" />
+            <element signature="e#387#418#0" expanded="false" />
+            <element signature="e#532#557#0" expanded="false" />
+            <element signature="e#707#729#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/list_row.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6296296" vertical-offset="306" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5050" column="16" selection-start="189482" selection-end="189482" vertical-scroll-proportion="0.33266932" vertical-offset="89509" max-vertical-offset="120636" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="0" selection-start="4791" selection-end="4791" vertical-scroll-proportion="0.0" vertical-offset="2077" max-vertical-offset="5580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="388" selection-end="388" vertical-scroll-proportion="0.3145631" vertical-offset="0" max-vertical-offset="515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="4193" selection-end="4193" vertical-scroll-proportion="0.22908367" vertical-offset="1397" max-vertical-offset="14022" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/com/android/internal/app/AlertController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="0" selection-start="5209" selection-end="5209" vertical-scroll-proportion="0.22908367" vertical-offset="1991" max-vertical-offset="16488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/StableArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="5" selection-start="1538" selection-end="1538" vertical-scroll-proportion="1.0834951" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/DynamicListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="20" selection-start="4025" selection-end="4025" vertical-scroll-proportion="-12.0873785" vertical-offset="7611" max-vertical-offset="9612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20970874" vertical-offset="0" max-vertical-offset="515">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NotfallApp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+        <state line="25" column="23" selection-start="383" selection-end="383" vertical-scroll-proportion="0.4407767" vertical-offset="223" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="251" selection-end="251" vertical-scroll-proportion="-0.17475729" vertical-offset="216" max-vertical-offset="2376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/xml/nfc_tech_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="0.034951456" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_about.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="17" selection-start="40" selection-end="2444" vertical-scroll-proportion="0.7777778" vertical-offset="774" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/WidgetProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="46" selection-start="2859" selection-end="2859" vertical-scroll-proportion="1.1940298" vertical-offset="0" max-vertical-offset="1242">
+        <state line="62" column="155" selection-start="3756" selection-end="3756" vertical-scroll-proportion="0.6812749" vertical-offset="594" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ContentFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="217" column="41" selection-start="11151" selection-end="11151" vertical-scroll-proportion="2.4302788" vertical-offset="1966" max-vertical-offset="7344" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/xml/widget_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/xml-v11/prefs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="942" selection-end="1310" vertical-scroll-proportion="0.54563105" vertical-offset="115" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable-mdpi/ic_fire.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable-mdpi/ic_police.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="59" selection-start="801" selection-end="801" vertical-scroll-proportion="0.13980582" vertical-offset="0" max-vertical-offset="2016">
+          <folding>
+            <element signature="e#2635#2651#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="21" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.17928287" vertical-offset="0" max-vertical-offset="4806">
+          <folding>
+            <element signature="e#4072#4103#0" expanded="false" />
+            <element signature="e#4174#4821#0" expanded="false" />
+            <element signature="e#4395#4411#0" expanded="false" />
+            <element signature="e#4782#4783#0" expanded="false" />
+            <element signature="e#6050#6065#0" expanded="false" />
+            <element signature="e#6295#6310#0" expanded="false" />
+            <element signature="e#6313#6326#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ReviewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="23" selection-start="5861" selection-end="5861" vertical-scroll-proportion="0.47609562" vertical-offset="2263" max-vertical-offset="3978" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="72" selection-start="3130" selection-end="3150" vertical-scroll-proportion="1.5059761" vertical-offset="0" max-vertical-offset="1656">
+          <folding>
+            <element signature="method#onCreateOptionsMenu#0;class#ActivityMap#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#ActivityMap#0" expanded="false" />
+            <element signature="e#3130#3150#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/text_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="352" selection-end="352" vertical-scroll-proportion="0.2962963" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/xml/prefs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="772" selection-end="772" vertical-scroll-proportion="0.52427185" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="43" selection-start="4843" selection-end="4843" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/DialogPanic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="26" selection-start="1745" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_nfc_write.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="33" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="53" selection-start="1355" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable/list_selector_holo_light.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/drawable-ldpi/divider_horizontal_dark.9.png">
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable-mdpi/btn_radio_on_disabled_holo_light.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="612" column="17" selection-start="29104" selection-end="29104" vertical-scroll-proportion="0.0" vertical-offset="10849" max-vertical-offset="45720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="62" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.35458168" vertical-offset="1028" max-vertical-offset="1548">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/NFCProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="52" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/layout/fragment_page_content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="34" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-5.5172415" vertical-offset="704" max-vertical-offset="1026">
+        <state line="16" column="12" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1656">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivitySettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="29" selection-start="8794" selection-end="8794" vertical-scroll-proportion="0.0" vertical-offset="1967" max-vertical-offset="2952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_prefs_numbers.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="2902" selection-end="2902" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="720">
+        <state line="1" column="0" selection-start="39" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable-xxhdpi-v11/ic_stat_behavior.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/drawable-xxhdpi/ic_stat_behavior.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="19" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.6086956" vertical-offset="596" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_prefs_sms.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/menu/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <folding>
-            <element signature="e#137#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_about.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="37" selection-start="1674" selection-end="1674" vertical-scroll-proportion="-27.310345" vertical-offset="0" max-vertical-offset="1260">
+        <state line="13" column="35" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="558">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="79" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="756">
+        <state line="38" column="63" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/res/layout/dialog_panic.xml">
+    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/model/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="1126" selection-end="1126" vertical-scroll-proportion="1.3103448" vertical-offset="578" max-vertical-offset="900">
-          <folding>
-            <element signature="e#472#500#0" expanded="true" />
-            <element signature="e#1190#1223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ContentFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="31" selection-start="9867" selection-end="9867" vertical-scroll-proportion="-1.0118343" vertical-offset="3186" max-vertical-offset="6354">
-          <folding>
-            <element signature="e#7409#7442#0" expanded="true" />
-            <element signature="e#7520#7564#0" expanded="true" />
-            <element signature="e#8106#8135#0" expanded="true" />
-            <element signature="e#8274#8307#0" expanded="true" />
-            <element signature="e#8446#8478#0" expanded="true" />
-            <element signature="e#8610#8642#0" expanded="true" />
-            <element signature="e#8776#8810#0" expanded="true" />
-            <element signature="e#8942#8973#0" expanded="true" />
-            <element signature="e#9106#9134#0" expanded="true" />
-            <element signature="e#9265#9294#0" expanded="true" />
-            <element signature="e#9470#9500#0" expanded="true" />
-            <element signature="e#9697#10082#0" expanded="true" />
-            <element signature="e#9912#9946#0" expanded="true" />
-            <element signature="e#10018#10048#0" expanded="true" />
-            <element signature="e#10067#10068#0" expanded="true" />
-            <element signature="e#10166#10200#0" expanded="true" />
-            <element signature="e#10322#10360#0" expanded="true" />
-            <element signature="e#10885#10918#0" expanded="true" />
-            <element signature="method#onDetach#0;class#ContentFragment#0" expanded="false" />
-            <element signature="method#onItemClick#0;class#ContentFragment#0" expanded="false" />
-            <element signature="method#onItemSelected#0;class#ContentFragment#0" expanded="false" />
-            <element signature="e#16952#16977#0" expanded="true" />
-            <element signature="e#17023#17059#0" expanded="true" />
-            <element signature="e#17318#17343#0" expanded="true" />
-            <element signature="e#17389#17425#0" expanded="true" />
-            <element signature="e#17848#17875#0" expanded="true" />
-            <element signature="e#18182#18207#0" expanded="true" />
-            <element signature="e#18514#18539#0" expanded="true" />
-            <element signature="method#onNothingSelected#0;class#ContentFragment#0" expanded="false" />
-            <element signature="method#surfaceChanged#0;class#ContentFragment#0" expanded="false" />
-            <element signature="method#surfaceDestroyed#0;class#ContentFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///tmp/ddms6647483906198291079.trace">
-      <provider selected="true" editor-type-id="vmtrace-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="65" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/ui/ReviewFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="5" selection-start="7295" selection-end="9047" vertical-scroll-proportion="0.0" vertical-offset="4018" max-vertical-offset="4428">
+        <state line="78" column="20" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.8202995" vertical-offset="911" max-vertical-offset="1566">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/WizardPager/LibWizardPager/src/co/juliansuarez/libwizardpager/wizard/LocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="905" selection-end="905" vertical-scroll-proportion="0.974359" vertical-offset="0" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotfallApp/src/main/java/com/oligon/emergency/ActivityMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="46" selection-start="6309" selection-end="6309" vertical-scroll-proportion="2.0236685" vertical-offset="1080" max-vertical-offset="2394">
-          <folding>
-            <element signature="e#2252#2290#0" expanded="true" />
-            <element signature="e#2336#2376#0" expanded="true" />
-            <element signature="e#2600#2627#0" expanded="true" />
-            <element signature="e#2809#2837#0" expanded="true" />
-            <element signature="e#5480#6383#0" expanded="true" />
-            <element signature="e#5668#6349#0" expanded="true" />
-            <element signature="e#6330#6331#0" expanded="true" />
-            <element signature="e#6372#6373#0" expanded="true" />
-            <element signature="e#6439#6623#0" expanded="true" />
-            <element signature="e#6612#6613#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2629,7 +2530,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>libraries</last-edited>
+          <last-edited>NotfallApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -60,7 +60,8 @@ public class WidgetProvider extends AppWidgetProvider {
             case 1:
                 remoteViews.setTextViewText(R.id.widget_text, CONTENT_TEXT[item]);
                 remoteViews.setImageViewResource(R.id.widget_image, CONTENT_IMAGE[item]);
-                remoteViews.setOnClickPendingIntent(R.id.widget_home, PendingIntent.getActivity(context, 0, new Intent(context, ActivityMain.class), PendingIntent.FLAG_CANCEL_CURRENT));
+                PendingIntent intent = PendingIntent.getActivity(context, 12345, new Intent(context, ActivityMain.class), PendingIntent.FLAG_CANCEL_CURRENT);
+                remoteViews.setOnClickPendingIntent(R.id.widget_home, intent);
                 remoteViews.setOnClickPendingIntent(R.id.widget_next, PendingIntent.getBroadcast(context, 1, new Intent(context, getClass()).putExtra(KEY_ITEM, item + 1 > CONTENT_IMAGE.length - 1 ? 0 : item + 1).putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId).setAction(UPDATE_CONTENT), PendingIntent.FLAG_UPDATE_CURRENT));
                 remoteViews.setOnClickPendingIntent(R.id.widget_previous, PendingIntent.getBroadcast(context, 2, new Intent(context, getClass()).putExtra(KEY_ITEM, item - 1 < 0 ? CONTENT_IMAGE.length - 1 : item - 1).putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId).setAction(UPDATE_CONTENT), PendingIntent.FLAG_UPDATE_CURRENT));
                 remoteViews.setOnClickPendingIntent(R.id.widget_call, PendingIntent.getActivity(context, 3, new Intent(Intent.ACTION_DIAL).setData(Uri.parse("tel:" + CONTENT_TEXT[item].replaceAll("\\D+",""))), PendingIntent.FLAG_UPDATE_CURRENT));

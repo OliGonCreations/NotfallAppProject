@@ -8,7 +8,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
@@ -16,15 +15,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 
-import co.juliansuarez.libwizardpager.wizard.LocationHelper;
-
-public class ActivityMain extends SherlockActivity {
-
-    private String locationInString = "";
+public class ActivityMain extends SherlockFragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,8 +71,11 @@ public class ActivityMain extends SherlockActivity {
             case R.id.action_settings:
                 startActivity(new Intent(this, ActivitySettings.class));
                 return true;
+            case R.id.action_location:
+                startActivity(new Intent(getApplicationContext(), ActivityMap.class));
+                return true;
             case R.id.action_alarm:
-                showPanicDialog();
+                new DialogPanic().show(getSupportFragmentManager(), "PanicDialog");
                 return true;
         }
         return super.onOptionsItemSelected(item);
@@ -108,52 +106,4 @@ public class ActivityMain extends SherlockActivity {
         }).show();
     }
 
-    public void showPanicDialog(){
-        new LocationWorker().execute();
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-        View view = inflater.inflate(R.layout.dialog_panic, null);
-
-        builder.setView(view).setPositiveButton(getString(android.R.string.ok), new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int i) {
-                dialog.dismiss();
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        while(locationInString.equals("")){
-                        }
-                        /*SmsManager sms = SmsManager.getDefault();
-                        sms.sendTextMessage("15555215554",null,locationInString,null,null);
-                        sms.sendTextMessage("15555215556", null, locationInString, null, null);
-                        */
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("sms:123456789" )).putExtra("sms_body", locationInString));
-                        locationInString = "";
-                    }
-                }).start();
-            }
-        }).setNegativeButton(getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int i) {
-                dialog.dismiss();
-            }
-        }).show();
-    }
-
-    private class LocationWorker extends AsyncTask<Void, Void, String> {
-
-        LocationHelper myLocationHelper = new LocationHelper(getApplicationContext());
-
-        @Override
-        protected String doInBackground(Void... params) {
-            while (!myLocationHelper.gotLocation()) {
-            }
-            return "Lat: " + myLocationHelper.getLat() + ", Long: " + myLocationHelper.getLong() + ", auf " + myLocationHelper.getAccuracy() + "m genau.";
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-            locationInString = result;
-        }
-    }
 }

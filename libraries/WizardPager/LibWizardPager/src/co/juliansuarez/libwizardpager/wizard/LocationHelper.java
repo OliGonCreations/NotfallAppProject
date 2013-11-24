@@ -48,6 +48,7 @@ public class LocationHelper {
 
     public void killLocationServices() {
         locationManager.removeUpdates(locationListener);
+        locationManager = null;
     }
 
     public float getLat() {

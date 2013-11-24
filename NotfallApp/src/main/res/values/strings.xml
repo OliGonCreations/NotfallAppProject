@@ -2,16 +2,25 @@
 <resources>
 
     <string name="app_name">NotfallApp</string>
+
     <string name="action_alarm">Stiller Alarm</string>
+    <string name="action_location">Position anzeigen</string>
+    <string name="action_getposition">Position aktualisieren</string>
+    <string name="action_share_location">Position teilen</string>
     <string name="action_settings">Einstellungen</string>
     <string name="action_about">Über</string>
+
     <string name="next">Weiter</string>
     <string name="prev">Zurück</string>
     <string name="finish">Notruf!</string>
     <string name="review">Notruf tätigen</string>
+    <string name="confirm">Bestätigen</string>
+
+    <string name="getlocation">Position wird ermittelt</string>
 
     <string name="numbers">Rufnummern</string>
     <string name="behavior">Verhalten</string>
+    <string name="map">Karte</string>
 
     <string name="submit_confirm_message">Notruf tätigen.</string>
     <string name="submit_confirm_button">Bestätigen</string>
@@ -26,9 +35,26 @@
     <string name="dialog_panic_title">SOS senden</string>
     <string name="dialog_panic_disclaimer">Vorsicht! Es können Kosten anfallen.</string>
 
+    <string name="dialog_prefs_numbers_title">Rufnummern</string>
+    <string name="dialog_prefs_sms_title">SMS-Vorlagen</string>
+
+    <string name="dialog_nfc_write_title">NFC-Tag</string>
+    <string name="dialog_nfc_write_success">Erfolgreich beschrieben</string>
+    <string name="dialog_nfc_write_error_writable">Fehler: Tag nicht beschreibbar</string>
+    <string name="dialog_nfc_write_error_small">Fehler: Tag zu klein</string>
+
     <string name="category_main">Allgemein</string>
     <string name="prefs_notification">Benachrichtigung</string>
     <string name="prefs_notification_descr">Direkter Zugriff im Notfall in den Benachrichtigungen</string>
+    <string name="category_alarm">SOS-Notruf</string>
+    <string name="prefs_alarm_numbers">Rufnummern</string>
+    <string name="prefs_alarm_texts">Vorlagen für Notfall-SMS</string>
+    <string name="category_nfc">NFC</string>
+    <string name="prefs_nfc_write">NFC-Tag beschreiben</string>
+    <string name="category_user">Benutzerinfos</string>
+    <string name="prefs_user_name">Name</string>
+    <string name="prefs_user_name_hint">Max Mustermann</string>
+    <string name="prefs_user_name_disclaimer">Diese Daten werden nicht weitergegeben, sondern nur im Notfall für einen Notruf verwendet.</string>
 
     <string name="notification_title">Notfallhilfe</string>
     <string name="notification_content">Schnellzugriff zu wichtigen Informationen</string>
