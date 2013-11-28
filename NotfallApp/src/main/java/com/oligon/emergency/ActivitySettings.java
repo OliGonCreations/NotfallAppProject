@@ -8,7 +8,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
@@ -45,7 +44,6 @@ import java.util.ArrayList;
 public class ActivitySettings extends SherlockPreferenceActivity implements SharedPreferences.OnSharedPreferenceChangeListener, AdapterView.OnItemSelectedListener {
 
     public final static int NOTIFICATION_ID = 1787299834;
-    private static SharedPreferences sp;
 
     boolean mWriteMode = false;
     private NfcAdapter mNfcAdapter;
@@ -69,21 +67,6 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
         PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(this);
         mUserName = (EditTextPreference) findPreference("prefs_user_name");
         mUserName.setSummary(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_user_name", ""));
-
-        sp = getSharedPreferences("preferences", MODE_PRIVATE);
-        if (sp.getInt("prefs_numbers_count", 0) == 0) {
-            String[] numbers, titles;
-            Resources res = getResources();
-            numbers = res.getStringArray(R.array.numbers_number);
-            titles = res.getStringArray(R.array.numbers_title);
-            SharedPreferences.Editor editor = sp.edit();
-            editor.putInt("prefs_numbers_count", numbers.length);
-            for (int i = 0; i < numbers.length; i++) {
-                editor.putString("prefs_numbers_number_" + i, numbers[i]);
-                editor.putString("prefs_numbers_titles_" + i, titles[i]);
-            }
-            editor.commit();
-        }
 
     }
 
@@ -153,31 +136,31 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
         LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.dialog_prefs_numbers, null);
 
-        ArrayList<String> mItemList = new ArrayList<String>();
-        for (int i = 0; i < sp.getInt("prefs_numbers_count", 0); i++)
-            mItemList.add(sp.getString("prefs_numbers_titles_" + i, "") + ": " + sp.getString("prefs_numbers_number_" + i, ""));
-
+        final ArrayList<String> mItemList = ActivityMain.db.getAllNumbersInList();
         StableArrayAdapter adapter = new StableArrayAdapter(this, R.layout.text_view, R.id.list_text, mItemList);
-        final DynamicListView listView = (DynamicListView) view.findViewById(R.id.listview);
+        DynamicListView listView = (DynamicListView) view.findViewById(R.id.listview);
 
         listView.setCheeseList(mItemList);
         listView.setAdapter(adapter);
         listView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getApplicationContext(), position + "", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         builder.setView(view).setPositiveButton(getString(android.R.string.ok), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                SharedPreferences.Editor editor = sp.edit();
-                ArrayList<String> list = listView.getItemList();
-                editor.putInt("prefs_numbers_count", list.size());
-                for (int i = 0; i < list.size(); i++) {
-                    String[] temp = list.get(i).split(": ");
-                    editor.putString("prefs_numbers_titles_" + i, temp[0]);
-                    editor.putString("prefs_numbers_number_" + i, temp[1]);
-                }
-                editor.commit();
                 dialog.cancel();
                 mNumbersDialog = false;
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        ActivityMain.db.updateNumbers(mItemList);
+                    }
+                }).start();
             }
         }).setNegativeButton(getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
             @Override

@@ -18,13 +18,17 @@ import android.widget.TextView;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
+import com.oligon.emergency.model.DatabaseHandler;
 
 public class ActivityMain extends SherlockFragmentActivity {
+
+    public static DatabaseHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        db = new DatabaseHandler(this);
         findViewById(R.id.btBehavior).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
