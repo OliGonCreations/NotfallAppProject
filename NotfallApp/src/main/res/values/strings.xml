@@ -9,6 +9,7 @@
     <string name="action_share_location">Position teilen</string>
     <string name="action_settings">Einstellungen</string>
     <string name="action_about">Über</string>
+    <string name="action_add">Hinzufügen</string>
 
     <string name="next">Weiter</string>
     <string name="prev">Zurück</string>
@@ -43,11 +44,16 @@
     <string name="dialog_nfc_write_error_writable">Fehler: Tag nicht beschreibbar</string>
     <string name="dialog_nfc_write_error_small">Fehler: Tag zu klein</string>
 
+    <string name="dialog_edit_title">Bearbeiten</string>
+    <string name="dialog_edit_number_title">Name</string>
+    <string name="dialog_edit_number_nmb">Nummer</string>
+
     <string name="category_main">Allgemein</string>
     <string name="prefs_notification">Benachrichtigung</string>
     <string name="prefs_notification_descr">Direkter Zugriff im Notfall in den Benachrichtigungen</string>
+    <string name="prefs_numbers">Wichtige Rufnummern</string>
+    <string name="prefs_numbers_summary">Rufnummern hinzufügen und verschieben</string>
     <string name="category_alarm">SOS-Notruf</string>
-    <string name="prefs_alarm_numbers">Rufnummern</string>
     <string name="prefs_alarm_texts">Vorlagen für Notfall-SMS</string>
     <string name="category_nfc">NFC</string>
     <string name="prefs_nfc_write">NFC-Tag beschreiben</string>

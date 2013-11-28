@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -9,7 +10,7 @@
         android:id="@+id/dialog_title"
         android:layout_gravity="left|center_vertical"
         android:textSize="32sp"
-        android:text="@string/dialog_prefs_numbers_title"
+        android:text="@string/dialog_edit_title"
         android:textColor="#707070"
         android:gravity="center_vertical"
         android:fontFamily="sans-serif-light"
@@ -23,27 +24,29 @@
         android:layout_marginRight="8dp"
         android:background="@color/main_green" />
 
-    <com.oligon.emergency.model.DynamicListView
-        android:id="@+id/listview"
-        android:background="#0000"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/dialog_edit_number_title"
         android:layout_below="@+id/dialog_title"
-        android:layout_above="@+id/dialog_numbers_add"
-        />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:hint="@string/dialog_edit_number_title"
+        android:inputType="textCapSentences" />
 
-    <Button
-        style="@style/ButtonBarButton"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/action_add"
-        android:id="@+id/dialog_numbers_add"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/dialog_edit_number_nmb"
+        android:layout_below="@+id/dialog_edit_number_title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"/>
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:hint="@string/dialog_edit_number_nmb"
+        android:inputType="phone" />
+
+
 </RelativeLayout>

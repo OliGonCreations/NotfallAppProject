@@ -249,6 +249,9 @@ public class ActivityBehavior extends SherlockFragmentActivity implements PageFr
             case R.id.action_settings:
                 startActivity(new Intent(this, ActivitySettings.class));
                 return true;
+            case R.id.action_location:
+                startActivity(new Intent(getApplicationContext(), ActivityMap.class));
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

@@ -1,6 +1,7 @@
 package com.oligon.emergency;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -34,19 +35,25 @@ public class ActivityNumbers extends SherlockListActivity {
             @Override
             public boolean setViewValue(View view, Cursor cursor, int columnIndex) {
                 if (columnIndex == 3) {
-                    ((ImageView) view.findViewById(R.id.list_image)).setImageDrawable(getResources().getDrawable(cursor.getInt(3)));
+                    Resources res = getResources();
+                    ((ImageView) view.findViewById(R.id.list_image)).setImageDrawable(res.getDrawable(res.getIdentifier(cursor.getString(3), "drawable", "com.oligon.emergency")));
                     return true;
                 }
                 return false;
             }
         });
         setListAdapter(mAdapter);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
         updateContent();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getSupportMenuInflater().inflate(R.menu.activity_main_reduced, menu);
+        getSupportMenuInflater().inflate(R.menu.activity_numbers, menu);
         return true;
     }
 
@@ -61,6 +68,12 @@ public class ActivityNumbers extends SherlockListActivity {
                 return true;
             case R.id.action_settings:
                 startActivity(new Intent(this, ActivitySettings.class));
+                return true;
+            case R.id.action_edit:
+                startActivity(new Intent(this, ActivitySettings.class).putExtra("dialog_numbers", true));
+                return true;
+            case R.id.action_location:
+                startActivity(new Intent(getApplicationContext(), ActivityMap.class));
                 return true;
         }
         return super.onOptionsItemSelected(item);

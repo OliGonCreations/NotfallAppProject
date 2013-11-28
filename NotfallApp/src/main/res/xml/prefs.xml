@@ -6,6 +6,9 @@
             android:key="prefs_notification"
             android:title="@string/prefs_notification"
             android:summary="@string/prefs_notification_descr"/>
+       <!-- <Preference
+            android:key="prefs_alarm_numbers"
+            android:title="@string/prefs_alarm_numbers"/>-->
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/category_user">
         <EditTextPreference android:key="prefs_user_name"
@@ -18,13 +21,10 @@
         <Preference
             android:key="prefs_nfc_write"
             android:title="@string/prefs_nfc_write"/>
-    </PreferenceCategory>
+    </PreferenceCategory>-->
     <PreferenceCategory android:title="@string/category_alarm">
-        <Preference
-            android:key="prefs_alarm_numbers"
-            android:title="@string/prefs_alarm_numbers"/>
         <Preference
             android:key="prefs_alarm_texts"
             android:title="@string/prefs_alarm_texts"/>
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 </PreferenceScreen>

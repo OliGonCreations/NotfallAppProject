@@ -27,6 +27,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
@@ -45,17 +46,19 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
 
     public final static int NOTIFICATION_ID = 1787299834;
 
-    boolean mWriteMode = false;
     private NfcAdapter mNfcAdapter;
     private PendingIntent mNfcPendingIntent;
     private AlertDialog dialogWriteNFC;
-    private boolean mNumbersDialog = false, mNFCDialog = false, mSMSDialog = false;
+    private boolean mNumbersDialog, mNFCDialog, mSMSDialog, mWriteMode, mCloseOnNumberChange;
 
     private String ndefMessage = "http://emergency.oligon.com";
 
     private EditTextPreference mUserName;
     private EditText mText1, mText2;
     private Spinner mSelection1;
+    private CheckBox mCheck;
+    private StableArrayAdapter mNumbersAdapter;
+    private ArrayList<String> mNumbers;
 
     @SuppressWarnings("deprecation")
     @Override
@@ -67,7 +70,10 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
         PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(this);
         mUserName = (EditTextPreference) findPreference("prefs_user_name");
         mUserName.setSummary(PreferenceManager.getDefaultSharedPreferences(this).getString("prefs_user_name", ""));
-
+        if (getIntent().getBooleanExtra("dialog_numbers", false)) {
+            createNumbersDialog();
+            mCloseOnNumberChange = true;
+        }
     }
 
     @Override
@@ -136,20 +142,26 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
         LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.dialog_prefs_numbers, null);
 
-        final ArrayList<String> mItemList = ActivityMain.db.getAllNumbersInList();
-        StableArrayAdapter adapter = new StableArrayAdapter(this, R.layout.text_view, R.id.list_text, mItemList);
-        DynamicListView listView = (DynamicListView) view.findViewById(R.id.listview);
-
-        listView.setCheeseList(mItemList);
-        listView.setAdapter(adapter);
-        listView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mNumbers = ActivityMain.db.getAllNumbersInList();
+        mNumbersAdapter = new StableArrayAdapter(this, R.layout.text_view, R.id.list_text, mNumbers);
+        DynamicListView mNumbersListView = (DynamicListView) view.findViewById(R.id.listview);
+        view.findViewById(R.id.dialog_numbers_add).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(), position + "", Toast.LENGTH_SHORT).show();
+            public void onClick(View v) {
+                createNumberEditDialog(mNumbers.size() + 1, "", "", "ic_launcher");
             }
         });
 
+        mNumbersListView.setCheeseList(mNumbers);
+        mNumbersListView.setAdapter(mNumbersAdapter);
+        mNumbersListView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+        mNumbersListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String[] temp = mNumbers.get(position).split(": ");
+                createNumberEditDialog(position + 1, temp[0], temp[1], null);
+            }
+        });
         builder.setView(view).setPositiveButton(getString(android.R.string.ok), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -158,7 +170,7 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        ActivityMain.db.updateNumbers(mItemList);
+                        ActivityMain.db.updateNumbers(mNumbers);
                     }
                 }).start();
             }
@@ -168,11 +180,47 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
                 dialog.cancel();
                 mNumbersDialog = false;
             }
+        }).setOnCancelListener(new DialogInterface.OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialog) {
+                if (mCloseOnNumberChange)
+                    finish();
+            }
+        }).show();
+    }
+
+    private void createNumberEditDialog(final int position, String name, String number, final String img) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.dialog_edit_number, null);
+
+        final EditText mEditName = (EditText) view.findViewById(R.id.dialog_edit_number_title);
+        final EditText mEditNumber = (EditText) view.findViewById(R.id.dialog_edit_number_nmb);
+        mEditName.setText(name);
+        mEditNumber.setText(number);
+
+        builder.setView(view).setPositiveButton(getString(android.R.string.ok), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                ActivityMain.db.updateNumber(position, mEditName.getText().toString(), mEditNumber.getText().toString(), img);
+                if (position > mNumbers.size())
+                    mNumbers.add(mEditName.getText().toString() + ": " + mEditNumber.getText().toString());
+                else
+                    mNumbers.set(position - 1, mEditName.getText().toString() + ": " + mEditNumber.getText().toString());
+                mNumbersAdapter.updateItemIds(ActivityMain.db.getAllNumbersInList());
+                mNumbersAdapter.notifyDataSetChanged();
+                dialog.cancel();
+            }
+        }).setNegativeButton(getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
         }).show();
     }
 
     private void createSMSDialog() {
-        mNumbersDialog = true;
+        mSMSDialog = true;
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.dialog_prefs_sms, null);
@@ -182,14 +230,14 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();
-                        mNumbersDialog = false;
+                        mSMSDialog = false;
                     }
                 })
                 .setNegativeButton(getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();
-                        mNumbersDialog = false;
+                        mSMSDialog = false;
                     }
                 })
                 .show();
@@ -213,6 +261,7 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
         mText1 = (EditText) view.findViewById(R.id.dialog_nfc_write_text1);
         mText2 = (EditText) view.findViewById(R.id.dialog_nfc_write_text2);
         mSelection1 = (Spinner) view.findViewById(R.id.dialog_nfc_write_selection1);
+        mCheck = (CheckBox) view.findViewById(R.id.dialog_nfc_write_check);
         type.setOnItemSelectedListener(this);
         builder.setView(view)
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
@@ -226,7 +275,7 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
                                 ndefMessage += "/map";
                                 break;
                             case 2:
-                                switch(mSelection1.getSelectedItemPosition()){
+                                switch (mSelection1.getSelectedItemPosition()) {
                                     case 0:
                                         ndefMessage += "/behavior";
                                         break;
@@ -336,18 +385,23 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
                 mText1.setVisibility(View.VISIBLE);
                 mText2.setVisibility(View.VISIBLE);
                 mSelection1.setVisibility(View.GONE);
+                mCheck.setVisibility(View.VISIBLE);
                 mText1.setHint("Nummer");
                 mText2.setHint("Text");
+                mCheck.setText("Position angeben");
+                mCheck.setChecked(true);
                 break;
             case 1:
                 mText1.setVisibility(View.GONE);
                 mText2.setVisibility(View.GONE);
                 mSelection1.setVisibility(View.GONE);
+                mCheck.setVisibility(View.GONE);
                 break;
             case 2:
                 mText1.setVisibility(View.GONE);
                 mText2.setVisibility(View.GONE);
                 mSelection1.setVisibility(View.VISIBLE);
+                mCheck.setVisibility(View.GONE);
                 ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                         R.array.dialog_nfc_write_quick_access, android.R.layout.simple_spinner_item);
                 adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -358,6 +412,7 @@ public class ActivitySettings extends SherlockPreferenceActivity implements Shar
                 mText1.setHint("Text");
                 mText2.setVisibility(View.GONE);
                 mSelection1.setVisibility(View.GONE);
+                mCheck.setVisibility(View.GONE);
 
         }
     }

@@ -18,7 +18,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private Context mContext;
 
     private final static String DATABASE_NAME = "NotfallApp";
-    private final static int DATABASE_VERSION = 2;
+    private final static int DATABASE_VERSION = 1;
 
     private final static String SMS_TEMPLATE = "sms_template";
     private final static String TEL_NUMBERS = "tel_numbers";
@@ -39,7 +39,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE " + SMS_TEMPLATE + "(" + KEY_ID + " INTEGER PRIMARY KEY," + KEY_SMS_TITLE + " TEXT," + KEY_SMS_SUBJECT + " TEXT," + KEY_SMS_BODY + " TEXT," + KEY_SMS_NUMBER + " TEXT)");
-        db.execSQL("CREATE TABLE " + TEL_NUMBERS + "(" + KEY_ID + " INTEGER PRIMARY KEY," + KEY_TEL_TITLE + " TEXT," + KEY_TEL_NUMBER + " TEXT," + KEY_TEL_IMG + " INTEGER)");
+        db.execSQL("CREATE TABLE " + TEL_NUMBERS + "(" + KEY_ID + " INTEGER PRIMARY KEY," + KEY_TEL_TITLE + " TEXT," + KEY_TEL_NUMBER + " TEXT," + KEY_TEL_IMG + " TEXT)");
         initialize(db);
     }
 
@@ -52,7 +52,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         for (int i = 0; i < titles.length; i++) {
             values.put(KEY_TEL_TITLE, titles[i]);
             values.put(KEY_TEL_NUMBER, numbers[i]);
-            values.put(KEY_TEL_IMG, mContext.getResources().getIdentifier(images[i], "drawable", "com.oligon.emergency"));
+            values.put(KEY_TEL_IMG, images[i]);
             db.insert(TEL_NUMBERS, null, values);
             values.clear();
         }
@@ -137,11 +137,11 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     public void updateNumbers(ArrayList<String> list) {
         SQLiteDatabase dbRead = this.getReadableDatabase();
-        HashMap<String, Integer> map = new HashMap<String, Integer>();
+        HashMap<String, String> map = new HashMap<String, String>();
         Cursor cursor = dbRead.rawQuery("SELECT * FROM " + TEL_NUMBERS, null);
-        if(cursor.moveToFirst()) {
+        if (cursor.moveToFirst()) {
             do {
-                map.put(cursor.getString(1), cursor.getInt(3));
+                map.put(cursor.getString(1), cursor.getString(3));
             } while (cursor.moveToNext());
         }
         dbRead.close();
@@ -150,16 +150,33 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         db.delete(TEL_NUMBERS, null, null);
         ContentValues values = new ContentValues();
         for (String temp : list) {
-            Log.d("test", temp);
             String[] array = temp.split(": ");
             values.put(KEY_TEL_TITLE, array[0]);
             values.put(KEY_TEL_NUMBER, array[1]);
             values.put(KEY_TEL_IMG, map.get(array[0]));
-            Log.d("test", values.toString());
             db.insert(TEL_NUMBERS, null, values);
             values.clear();
         }
         db.close();
 
+    }
+
+    public void updateNumber(int position, String title, String number, String image) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(KEY_TEL_TITLE, title);
+        values.put(KEY_TEL_NUMBER, number);
+        Log.d("test", image);
+        if (image != null) {
+            values.put(KEY_TEL_IMG, image);
+            db.insert(TEL_NUMBERS, null, values);
+        } else
+            db.update(TEL_NUMBERS, values, KEY_ID + "=?", new String[]{position + ""});
+        db.close();
+    }
+
+    public void deleteNumber(int position) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(TEL_NUMBERS, KEY_ID + "=?", new String[]{position + ""});
     }
 }

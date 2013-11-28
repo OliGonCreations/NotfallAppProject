@@ -57,7 +57,8 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:inputType="text"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -70,6 +71,19 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:inputType="text" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_nfc_write_check"
+        android:layout_below="@+id/dialog_nfc_write_text2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:visibility="gone"/>
 
 </RelativeLayout>

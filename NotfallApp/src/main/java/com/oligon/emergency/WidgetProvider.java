@@ -45,8 +45,12 @@ public class WidgetProvider extends AppWidgetProvider {
     private void updateLayout(Context context, AppWidgetManager appWidgetManager, int appWidgetId, int item) {
         int layoutType = 1, layoutId;
         if (appWidgetManager.getAppWidgetOptions(appWidgetId).getInt(AppWidgetManager.OPTION_APPWIDGET_HOST_CATEGORY) == AppWidgetProviderInfo.WIDGET_CATEGORY_KEYGUARD) {
-            layoutId = R.layout.widget_layout_lock;
-            layoutType = 0;
+            if (appWidgetManager.getAppWidgetOptions(appWidgetId).getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT) >= 140)
+                layoutId = R.layout.widget_layout_large;
+            else {
+                layoutId = R.layout.widget_layout_lock;
+                layoutType = 0;
+            }
         } else if (appWidgetManager.getAppWidgetOptions(appWidgetId).getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT) >= 100)
             layoutId = R.layout.widget_layout_large;
         else
@@ -64,7 +68,7 @@ public class WidgetProvider extends AppWidgetProvider {
                 remoteViews.setOnClickPendingIntent(R.id.widget_home, intent);
                 remoteViews.setOnClickPendingIntent(R.id.widget_next, PendingIntent.getBroadcast(context, 1, new Intent(context, getClass()).putExtra(KEY_ITEM, item + 1 > CONTENT_IMAGE.length - 1 ? 0 : item + 1).putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId).setAction(UPDATE_CONTENT), PendingIntent.FLAG_UPDATE_CURRENT));
                 remoteViews.setOnClickPendingIntent(R.id.widget_previous, PendingIntent.getBroadcast(context, 2, new Intent(context, getClass()).putExtra(KEY_ITEM, item - 1 < 0 ? CONTENT_IMAGE.length - 1 : item - 1).putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId).setAction(UPDATE_CONTENT), PendingIntent.FLAG_UPDATE_CURRENT));
-                remoteViews.setOnClickPendingIntent(R.id.widget_call, PendingIntent.getActivity(context, 3, new Intent(Intent.ACTION_DIAL).setData(Uri.parse("tel:" + CONTENT_TEXT[item].replaceAll("\\D+",""))), PendingIntent.FLAG_UPDATE_CURRENT));
+                remoteViews.setOnClickPendingIntent(R.id.widget_call, PendingIntent.getActivity(context, 3, new Intent(Intent.ACTION_DIAL).setData(Uri.parse("tel:" + CONTENT_TEXT[item].replaceAll("\\D+", ""))), PendingIntent.FLAG_UPDATE_CURRENT));
                 remoteViews.setProgressBar(R.id.widget_progress, CONTENT_IMAGE.length, item + 1, false);
                 break;
         }

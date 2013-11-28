@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -182,7 +183,8 @@ public class ContentFragment extends Fragment implements AdapterView.OnItemClick
         } else if (mPage.getTitle().equals("Fluchtweg")) {
             text.setText(getString(R.string.fire_exit));
             image.setImageDrawable(getResources().getDrawable(R.drawable.ic_behavior_fire_exit));
-            action.setVisibility(View.VISIBLE);
+            if (getActivity().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH))
+                action.setVisibility(View.VISIBLE);
             action.setText(getString(R.string.fire_light));
             mCameraPreviewSurface = (SurfaceView) rootView.findViewById(R.id.surfaceView);
             mCameraPreviewSurface.getHolder().addCallback(this);
@@ -190,10 +192,10 @@ public class ContentFragment extends Fragment implements AdapterView.OnItemClick
                 @Override
                 public void onClick(View v) {
                     toggleLEDFlash();
-                    if(mActive)
-                        ((Button)v).setText(getString(R.string.fire_light_off));
+                    if (mActive)
+                        ((Button) v).setText(getString(R.string.fire_light_off));
                     else
-                        ((Button)v).setText(getString(R.string.fire_light));
+                        ((Button) v).setText(getString(R.string.fire_light));
                 }
             });
         } else if (mPage.getTitle().equals("Notruf")) {
